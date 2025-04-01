@@ -110,7 +110,7 @@ liveboard:
     - name: lb_border_type
       value: CURVED
     - name: lb_gutter_type
-      value: GUTTERED
+      value: GUTTERLESS
     - name: lb_brand_color
       value: LBC_E
     - name: hide_group_title
