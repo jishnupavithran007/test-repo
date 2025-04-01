@@ -1,0 +1,59 @@
+guid: 9b67394b-3b0e-40c8-9c24-1de7ca0fc96b
+liveboard:
+  name: test
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Partial Quantity
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      formulas:
+      - id: Holiday YTD
+        name: Holiday YTD
+        expr: "month ( [Commit Date] ) <= month ( [Date List Param] ) and day ( [Commit Date] ) <= day ( [Date List Param] )"
+        was_auto_generated: false
+      - id: Partial Quantity
+        name: Partial Quantity
+        expr: "[Quantity] / [Integer Range Param]"
+        was_auto_generated: false
+      - id: Partial Revenue
+        name: Partial Revenue
+        expr: "[Revenue] / [Integer Range Param]"
+        was_auto_generated: false
+      search_query: "[Holiday YTD] = true [Partial Quantity]"
+      answer_columns:
+      - name: Total Partial Quantity
+      table:
+        table_columns:
+        - column_id: Total Partial Quantity
+          show_headline: false
+        ordered_column_ids:
+        - Total Partial Quantity
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Partial Quantity
+        axis_configs:
+        - "y":
+          - Total Partial Quantity
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: f93deb7e-717d-47e6-b141-b52c763ed640
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+  parameter_overrides:
+  - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
+    value:
+      name: Parameters WS::Date List Param
+  - key: 6afe392d-d188-4379-aef3-1a8632e147c8
+    value:
+      name: Parameters WS::Integer Range Param
+  ordered_chips:
+  - name: Parameters WS::Date List Param
+    type: PARAMETER
+  - name: Parameters WS::Integer Range Param
+    type: PARAMETER
