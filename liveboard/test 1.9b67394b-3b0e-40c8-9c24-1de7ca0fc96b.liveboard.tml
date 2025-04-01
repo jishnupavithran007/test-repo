@@ -1,6 +1,6 @@
 guid: 9b67394b-3b0e-40c8-9c24-1de7ca0fc96b
 liveboard:
-  name: test
+  name: test 1
   visualizations:
   - id: Viz_1
     answer:
@@ -45,6 +45,7 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
+      size: EXTRA_SMALL
   parameter_overrides:
   - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
     value:
