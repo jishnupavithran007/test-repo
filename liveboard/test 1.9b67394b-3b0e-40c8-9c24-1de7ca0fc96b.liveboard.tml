@@ -106,7 +106,7 @@ liveboard:
   style:
     style_properties:
     - name: lb_density_type
-      value: REGULAR
+      value: LOOSE
     - name: lb_border_type
       value: CURVED
     - name: lb_gutter_type
