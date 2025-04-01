@@ -114,10 +114,10 @@ liveboard:
     - name: lb_brand_color
       value: LBC_E
     - name: hide_group_title
-      value: "true"
+      value: "false"
     - name: hide_group_description
       value: "false"
     - name: hide_group_tile_description
-      value: "false"
+      value: "true"
     - name: hide_tile_description
-      value: "false"
+      value: "true"
