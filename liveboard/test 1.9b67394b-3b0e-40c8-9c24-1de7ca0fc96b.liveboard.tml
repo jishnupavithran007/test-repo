@@ -89,6 +89,8 @@ liveboard:
     tiles:
     - visualization_id: Viz_1
       size: EXTRA_SMALL
+    - visualization_id: Viz_2
+      size: MEDIUM
   parameter_overrides:
   - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
     value:
@@ -110,7 +112,7 @@ liveboard:
     - name: lb_gutter_type
       value: GUTTERED
     - name: lb_brand_color
-      value: LBC_F
+      value: LBC_E
     - name: hide_group_title
       value: "false"
     - name: hide_group_description
