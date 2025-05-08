@@ -276,13 +276,25 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
     - visualization_id: Viz_2
-      size: MEDIUM
+      x: 6
+      "y": 0
+      height: 8
+      width: 6
     - visualization_id: Viz_3
-      size: MEDIUM
+      x: 0
+      "y": 8
+      height: 8
+      width: 6
     - visualization_id: Viz_4
-      size: MEDIUM
+      x: 6
+      "y": 8
+      height: 8
+      width: 6
   ordered_chips:
   - name: TPCH WS::Category
     type: FILTER
@@ -298,3 +310,54 @@ liveboard:
     type: FILTER
   - name: TPCH WS::the month formula
     type: FILTER
+  views:
+  - view_guid: 82825b33-2de0-4768-878e-9557a79602dc
+    name: View 1
+    view_filters:
+    - column:
+      - TPCH WS::Category
+      oper: in
+      values:
+      - mfgr#12
+      - mfgr#14
+      - mfgr#22
+    - column:
+      - TPCH WS::Commit Date
+      date_filter:
+        type: EXACT_DATE_RANGE
+        oper: between
+        date_range:
+          start_date: 07/18/1996
+          end_date: 10/29/1998
+    - column:
+      - TPCH WS::Tax
+      oper: '>='
+      values:
+      - "5"
+    - column:
+      - TPCH WS::Ship Mode
+      oper: in
+      values:
+      - air
+      - fob
+    - column:
+      - TPCH WS::Brand1
+      oper: =
+    - column:
+      - TPCH WS::Customer Region
+      oper: in
+      values:
+      - asia
+      - europe
+      - middle east
+    - column:
+      - TPCH WS::the month formula
+      oper: in
+      values:
+      - january
+      - february
+      - march
+      - july
+      - may
+      - october
+    is_public: false
