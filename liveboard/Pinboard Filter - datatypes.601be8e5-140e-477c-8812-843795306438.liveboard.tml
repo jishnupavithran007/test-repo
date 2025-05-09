@@ -54,7 +54,7 @@ liveboard:
           color:
           - Category
         client_state: "{\"chartProperties\":{\"gridLines\":{},\"showRoundedNumbers\":true,\"chartSpecific\":{}},\"axisProperties\":{\"993e953e-91f7-4751-ab64-b8f1a5c9ab70\":{\"linkedColumns\":[],\"axisType\":\"X\"}},\"version\":\"V2.1\",\"columnProperties\":{\"Category\":{},\"Customer Address\":{},\"Ship Priority\":{},\"Supplier City\":{},\"Color\":{},\"Total Tax\":{}}}"
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Customer Address\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"993e953e-91f7-4751-ab64-b8f1a5c9ab70\",\"properties\": {\"axisType\": \"X\"}}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"Customer Address\",\"columnProperty\": {}},{\"columnId\": \"Category\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"993e953e-91f7-4751-ab64-b8f1a5c9ab70\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: TABLE_MODE
     viz_guid: d547ec54-2a37-4516-a222-2b06719af726
   - id: Viz_2
@@ -105,7 +105,7 @@ liveboard:
           color:
           - Customer Nation
         client_state: "{\"chartProperties\":{\"gridLines\":{},\"showRoundedNumbers\":true,\"chartSpecific\":{}},\"axisProperties\":{\"2ee1dde5-ec4a-4b3a-ac0c-6c9c4c1351cc\":{\"linkedColumns\":[],\"axisType\":\"X\"}},\"version\":\"V2.1\",\"columnProperties\":{\"Quarter(Commit Date)\":{},\"Customer Nation\":{},\"Type\":{},\"Color\":{},\"Total Discount\":{}}}"
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"Customer Nation\",\"columnProperty\": {}},{\"columnId\": \"Quarter(Commit Date)\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"2ee1dde5-ec4a-4b3a-ac0c-6c9c4c1351cc\",\"properties\": {\"axisType\": \"X\"}}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Quarter(Commit Date)\",\"columnProperty\": {}},{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"Customer Nation\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"2ee1dde5-ec4a-4b3a-ac0c-6c9c4c1351cc\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: TABLE_MODE
     viz_guid: 6c6416b3-9816-401a-aad5-c863b019284c
   - id: Viz_3
@@ -148,7 +148,7 @@ liveboard:
           color:
           - Ship Mode
         client_state: "{\"chartProperties\":{\"visibleSeriesNames\":[\"{Null}\",\"air\",\"fob\",\"mail\",\"rail\",\"reg air\",\"ship\",\"truck\"],\"gridLines\":{},\"showRoundedNumbers\":true,\"chartSpecific\":{}},\"axisProperties\":{\"3aabb102-580f-40a4-8b53-a60a9063b772\":{\"linkedColumns\":[\"Total Quantity\"],\"axisType\":\"Y\",\"isOpposite\":false},\"7ec9b2fe-ff90-4ffe-b839-d70dc85298c2\":{\"linkedColumns\":[\"Quarter(Commit Date)\"],\"axisType\":\"X\"}},\"systemSeriesColors\":{\"{null}\":\"rgba(227,57,74,0.3)\",\"air\":\"rgba(104,184,227,0.3)\",\"fob\":\"rgba(245,203,78,0.3)\",\"mail\":\"rgba(64,116,179,0.3)\",\"rail\":\"rgba(53,176,110,0.3)\",\"reg air\":\"rgba(150,103,184,0.3)\",\"ship\":\"rgba(252,169,176,0.3)\",\"truck\":\"rgba(199,235,255,0.3)\"},\"yAxisShared\":false,\"visibleSeriesNames\":[\"{Null}\",\"air\",\"fob\",\"mail\",\"rail\",\"reg air\",\"ship\",\"truck\"],\"version\":\"V2.1\",\"columnProperties\":{\"Quarter(Commit Date)\":{},\"Ship Mode\":{},\"Total Quantity\":{}}}"
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"visibleSeriesNames\": [\"{Null}\",\"air\",\"fob\",\"mail\",\"rail\",\"reg air\",\"ship\",\"truck\"],\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Quarter(Commit Date)\",\"columnProperty\": {}},{\"columnId\": \"Ship Mode\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3aabb102-580f-40a4-8b53-a60a9063b772\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"7ec9b2fe-ff90-4ffe-b839-d70dc85298c2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Commit Date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"{null}\",\"color\": \"rgba(227,57,74,0.3)\"},{\"serieName\": \"air\",\"color\": \"rgba(104,184,227,0.3)\"},{\"serieName\": \"fob\",\"color\": \"rgba(245,203,78,0.3)\"},{\"serieName\": \"mail\",\"color\": \"rgba(64,116,179,0.3)\"},{\"serieName\": \"rail\",\"color\": \"rgba(53,176,110,0.3)\"},{\"serieName\": \"reg air\",\"color\": \"rgba(150,103,184,0.3)\"},{\"serieName\": \"ship\",\"color\": \"rgba(252,169,176,0.3)\"},{\"serieName\": \"truck\",\"color\": \"rgba(199,235,255,0.3)\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"visibleSeriesNames\": [\"{Null}\",\"air\",\"fob\",\"mail\",\"rail\",\"reg air\",\"ship\",\"truck\"],\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Quarter(Commit Date)\",\"columnProperty\": {}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Ship Mode\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3aabb102-580f-40a4-8b53-a60a9063b772\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"7ec9b2fe-ff90-4ffe-b839-d70dc85298c2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Commit Date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"{null}\",\"color\": \"rgba(227,57,74,0.3)\"},{\"serieName\": \"air\",\"color\": \"rgba(104,184,227,0.3)\"},{\"serieName\": \"fob\",\"color\": \"rgba(245,203,78,0.3)\"},{\"serieName\": \"mail\",\"color\": \"rgba(64,116,179,0.3)\"},{\"serieName\": \"rail\",\"color\": \"rgba(53,176,110,0.3)\"},{\"serieName\": \"reg air\",\"color\": \"rgba(150,103,184,0.3)\"},{\"serieName\": \"ship\",\"color\": \"rgba(252,169,176,0.3)\"},{\"serieName\": \"truck\",\"color\": \"rgba(199,235,255,0.3)\"}]}"
       display_mode: CHART_MODE
     viz_guid: 4676087a-a7c1-4c02-abc7-7845731dbb3d
   - id: Viz_4
@@ -287,22 +287,22 @@ liveboard:
       x: 0
       "y": 0
       height: 8
-      width: 12
+      width: 6
     - visualization_id: Viz_2
+      x: 6
+      "y": 0
+      height: 8
+      width: 6
+    - visualization_id: Viz_3
       x: 0
       "y": 8
       height: 8
-      width: 12
-    - visualization_id: Viz_3
-      x: 0
-      "y": 16
-      height: 8
       width: 6
     - visualization_id: Viz_4
-      x: 0
-      "y": 24
+      x: 6
+      "y": 8
       height: 8
-      width: 12
+      width: 6
   ordered_chips:
   - name: TPCH WS::Category
     type: FILTER
@@ -318,3 +318,54 @@ liveboard:
     type: FILTER
   - name: TPCH WS::the month formula
     type: FILTER
+  views:
+  - view_guid: f50a2062-10da-4928-bd72-b32e2bf5ecf9
+    name: view 1
+    view_filters:
+    - column:
+      - TPCH WS::Category
+      oper: in
+      values:
+      - mfgr#12
+      - mfgr#14
+      - mfgr#22
+    - column:
+      - TPCH WS::Commit Date
+      date_filter:
+        type: EXACT_DATE_RANGE
+        oper: between
+        date_range:
+          start_date: 07/18/1996
+          end_date: 10/29/1998
+    - column:
+      - TPCH WS::Tax
+      oper: '>='
+      values:
+      - "5"
+    - column:
+      - TPCH WS::Ship Mode
+      oper: in
+      values:
+      - air
+      - fob
+    - column:
+      - TPCH WS::Brand1
+      oper: =
+    - column:
+      - TPCH WS::Customer Region
+      oper: in
+      values:
+      - asia
+      - europe
+      - middle east
+    - column:
+      - TPCH WS::the month formula
+      oper: in
+      values:
+      - january
+      - february
+      - march
+      - july
+      - may
+      - october
+    is_public: false
