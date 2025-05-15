@@ -51,7 +51,22 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
   ordered_chips:
   - name: Category
     type: FILTER
+  views:
+  - view_guid: 8ae876cb-26c4-4fea-93bc-8072be4bfea2
+    name: view 1
+    view_filters:
+    - column:
+      - Category
+      oper: in
+      values:
+      - mfgr#11
+      - mfgr#12
+      - mfgr#13
+    is_public: false
