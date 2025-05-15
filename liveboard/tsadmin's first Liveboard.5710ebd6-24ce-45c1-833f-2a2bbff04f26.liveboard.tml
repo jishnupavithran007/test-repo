@@ -38,6 +38,20 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02900a4f-37b8-4e21-b606-ea6daaf04917\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"3833b1af-de72-4414-9cff-fcb26af6dcb5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#747E8C\"}]}"
       display_mode: CHART_MODE
     viz_guid: 8706e8a6-539e-45d5-9445-b851eb099915
+  filters:
+  - column:
+    - Category
+    oper: in
+    values:
+    - mfgr#11
+    - mfgr#12
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
+      size: MEDIUM
+  ordered_chips:
+  - name: Category
+    type: FILTER
