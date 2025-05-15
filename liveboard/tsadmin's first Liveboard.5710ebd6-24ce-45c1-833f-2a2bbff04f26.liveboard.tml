@@ -35,7 +35,7 @@ liveboard:
           "y":
           - Total Tax
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02900a4f-37b8-4e21-b606-ea6daaf04917\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"3833b1af-de72-4414-9cff-fcb26af6dcb5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#747E8C\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"67d5e2b6-97c5-4f05-9cd6-4b21fbacdfc6\",\"columnProperty\": {}},{\"columnId\": \"b22a79f6-ee30-449f-99d0-3f7cc7b41191\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02900a4f-37b8-4e21-b606-ea6daaf04917\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"3833b1af-de72-4414-9cff-fcb26af6dcb5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#747E8C\"}]}"
       display_mode: CHART_MODE
     viz_guid: 8706e8a6-539e-45d5-9445-b851eb099915
   filters:
@@ -51,22 +51,7 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      x: 0
-      "y": 0
-      height: 8
-      width: 6
+      size: MEDIUM
   ordered_chips:
   - name: Category
     type: FILTER
-  views:
-  - view_guid: 8ae876cb-26c4-4fea-93bc-8072be4bfea2
-    name: view 1
-    view_filters:
-    - column:
-      - Category
-      oper: in
-      values:
-      - mfgr#11
-      - mfgr#12
-      - mfgr#13
-    is_public: false
