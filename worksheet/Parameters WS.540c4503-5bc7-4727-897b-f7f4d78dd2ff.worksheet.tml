@@ -252,15 +252,10 @@ worksheet:
     list_config:
       list_choice:
       - value: "0.0"
-        display_name: ""
       - value: "0.25"
-        display_name: ""
       - value: "0.5"
-        display_name: ""
       - value: "0.75"
-        display_name: ""
       - value: "1.0"
-        display_name: ""
     description: Double parameter with list value selection.
   - id: 3d4cefd7-caab-401c-a9a8-3f452414b82a
     name: Double Param
@@ -316,13 +311,9 @@ worksheet:
     list_config:
       list_choice:
       - value: air
-        display_name: ""
       - value: truck
-        display_name: ""
       - value: car
-        display_name: ""
       - value: ship
-        display_name: ""
     description: String parameter with list value selection.
   - id: f59b9087-2eb3-4116-ab87-bcdba25ceb01
     name: String Param
