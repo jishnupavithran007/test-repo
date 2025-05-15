@@ -88,6 +88,26 @@ liveboard:
     tiles:
     - visualization_id: Viz_1
       size: MEDIUM
+    - visualization_id: Viz_2
+      size: MEDIUM
   ordered_chips:
   - name: Category
     type: FILTER
+  style:
+    style_properties:
+    - name: lb_density_type
+      value: REGULAR
+    - name: lb_border_type
+      value: CURVED
+    - name: lb_gutter_type
+      value: GUTTERED
+    - name: lb_brand_color
+      value: LBC_A
+    - name: hide_group_title
+      value: "false"
+    - name: hide_group_description
+      value: "false"
+    - name: hide_group_tile_description
+      value: "false"
+    - name: hide_tile_description
+      value: "false"
