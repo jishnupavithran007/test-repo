@@ -51,7 +51,22 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
   ordered_chips:
   - name: Ship Mode
     type: FILTER
+  views:
+  - view_guid: a59ac6aa-3d9f-413e-b4ff-f8e04747609c
+    name: t1
+    view_filters:
+    - column:
+      - Ship Mode
+      oper: in
+      values:
+      - air
+      - fob
+      - mail
+    is_public: false
