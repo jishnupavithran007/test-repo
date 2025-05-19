@@ -1,0 +1,43 @@
+guid: 40f75883-cd2e-4a27-90df-b5f887a1dd0a
+liveboard:
+  name: t1
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Lo Tax by Lo Shipmode
+      tables:
+      - id: UNIQUE-jishnu.pavithran-UI-WS
+        name: UNIQUE-jishnu.pavithran-UI-WS
+        fqn: c5795b8e-142a-4d19-a32d-e4388359da3f
+      search_query: "[Lo Shipmode] [Lo Tax]"
+      answer_columns:
+      - name: Lo Shipmode
+      - name: Total Lo Tax
+      table:
+        table_columns:
+        - column_id: Lo Shipmode
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Lo Tax
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Lo Shipmode
+        - Total Lo Tax
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Lo Shipmode
+        - column_id: Total Lo Tax
+        axis_configs:
+        - x:
+          - Lo Shipmode
+          "y":
+          - Total Lo Tax
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Tax\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6b82b1b8-7dff-4aa9-b51a-098658192b77\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Tax\"],\"isOpposite\": false}},{\"id\": \"3449cfdc-1e12-4f2e-8446-f2026f5f99e2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Tax\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: bc804d63-4c06-4b65-9685-73540f471565
+  layout:
+    tiles:
+    - visualization_id: Viz_1
