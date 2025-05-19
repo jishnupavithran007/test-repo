@@ -35,45 +35,9 @@ liveboard:
           "y":
           - Total Tax
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"67d5e2b6-97c5-4f05-9cd6-4b21fbacdfc6\",\"columnProperty\": {}},{\"columnId\": \"b22a79f6-ee30-449f-99d0-3f7cc7b41191\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02900a4f-37b8-4e21-b606-ea6daaf04917\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"3833b1af-de72-4414-9cff-fcb26af6dcb5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#747E8C\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"e0765245-589c-41fe-9f57-2d538ee03ee5\",\"columnProperty\": {}},{\"columnId\": \"3b8738ea-b6cd-4986-8cdb-ee5fd58c5c69\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02900a4f-37b8-4e21-b606-ea6daaf04917\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"3833b1af-de72-4414-9cff-fcb26af6dcb5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#747E8C\"}]}"
       display_mode: CHART_MODE
     viz_guid: 8706e8a6-539e-45d5-9445-b851eb099915
-  - id: Viz_2
-    answer:
-      name: Total Tax by Category
-      tables:
-      - id: Parameters WS
-        name: Parameters WS
-        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
-      search_query: "[Tax] [Category]"
-      answer_columns:
-      - name: Category
-      - name: Total Tax
-      table:
-        table_columns:
-        - column_id: Category
-          headline_aggregation: COUNT_DISTINCT
-        - column_id: Total Tax
-          headline_aggregation: SUM
-        ordered_column_ids:
-        - Category
-        - Total Tax
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: Category
-        - column_id: Total Tax
-        axis_configs:
-        - x:
-          - Category
-          "y":
-          - Total Tax
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}},{\"columnId\": \"67d5e2b6-97c5-4f05-9cd6-4b21fbacdfc6\",\"columnProperty\": {}},{\"columnId\": \"b22a79f6-ee30-449f-99d0-3f7cc7b41191\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02900a4f-37b8-4e21-b606-ea6daaf04917\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"3833b1af-de72-4414-9cff-fcb26af6dcb5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#747E8C\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: f3e62dc8-49f0-4077-ba3d-4e3f1e2b64e5
   filters:
   - column:
     - Category
@@ -87,27 +51,22 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
-    - visualization_id: Viz_2
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
   ordered_chips:
   - name: Category
     type: FILTER
-  style:
-    style_properties:
-    - name: lb_density_type
-      value: REGULAR
-    - name: lb_border_type
-      value: CURVED
-    - name: lb_gutter_type
-      value: GUTTERED
-    - name: lb_brand_color
-      value: LBC_A
-    - name: hide_group_title
-      value: "false"
-    - name: hide_group_description
-      value: "false"
-    - name: hide_group_tile_description
-      value: "false"
-    - name: hide_tile_description
-      value: "false"
+  views:
+  - view_guid: 8ae876cb-26c4-4fea-93bc-8072be4bfea2
+    name: view 1
+    view_filters:
+    - column:
+      - Category
+      oper: in
+      values:
+      - mfgr#11
+      - mfgr#12
+      - mfgr#13
+    is_public: false
