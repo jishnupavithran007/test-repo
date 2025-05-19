@@ -35,7 +35,7 @@ liveboard:
           "y":
           - Total Lo Discount
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Discount\",\"columnProperty\": {}},{\"columnId\": \"dc655a50-1119-4c5a-b9a0-a79e6e58aece\",\"columnProperty\": {}},{\"columnId\": \"9119e44b-5b47-46f3-ba17-4ae54f20dd72\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"485f130d-3d23-4694-bff4-c0d9a97be0da\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Discount\"],\"isOpposite\": false}},{\"id\": \"1ff80ec3-a778-4e3a-9d5a-b6cccf2baefd\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Discount\",\"color\": \"#FF8142\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Discount\",\"columnProperty\": {}},{\"columnId\": \"a208a970-451b-4080-b9ca-ba41036afa72\",\"columnProperty\": {}},{\"columnId\": \"feffb751-7f7a-4378-b474-621bd327ec01\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"485f130d-3d23-4694-bff4-c0d9a97be0da\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Discount\"],\"isOpposite\": false}},{\"id\": \"1ff80ec3-a778-4e3a-9d5a-b6cccf2baefd\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Discount\",\"color\": \"#FF8142\"}]}"
       display_mode: CHART_MODE
     viz_guid: a669a4c5-42ef-4975-8a19-1cacd402a21f
   filters:
@@ -51,23 +51,7 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      x: 0
-      "y": 0
-      height: 8
-      width: 6
+      size: MEDIUM
   ordered_chips:
   - name: Lo Shipmode
     type: FILTER
-  views:
-  - view_guid: ba37b3b4-c17f-48d7-b560-78318273379e
-    name: view 1
-    view_filters:
-    - column:
-      - Lo Shipmode
-      oper: in
-      values:
-      - air
-      - fob
-      - mail
-      - rail
-    is_public: false
