@@ -38,6 +38,20 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Extended Price\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"5bc5be2b-06ba-4a99-97f2-69a9c0a9e8dd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Extended Price\"],\"isOpposite\": false}},{\"id\": \"819f5f7d-a476-4795-9b45-214bcd6e5883\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Extended Price\",\"color\": \"#747E8C\"}]}"
       display_mode: CHART_MODE
     viz_guid: 1c7466f3-59d7-424c-af8b-5e60b48756e6
+  filters:
+  - column:
+    - Ship Mode
+    oper: in
+    values:
+    - air
+    - fob
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
+      size: MEDIUM
+  ordered_chips:
+  - name: Ship Mode
+    type: FILTER
