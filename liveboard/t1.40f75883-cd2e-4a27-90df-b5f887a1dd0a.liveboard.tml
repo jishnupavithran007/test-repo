@@ -38,6 +38,20 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Tax\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6b82b1b8-7dff-4aa9-b51a-098658192b77\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Tax\"],\"isOpposite\": false}},{\"id\": \"3449cfdc-1e12-4f2e-8446-f2026f5f99e2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Tax\",\"color\": \"#747E8C\"}]}"
       display_mode: CHART_MODE
     viz_guid: bc804d63-4c06-4b65-9685-73540f471565
+  filters:
+  - column:
+    - Lo Shipmode
+    oper: in
+    values:
+    - air
+    - fob
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
+      size: MEDIUM
+  ordered_chips:
+  - name: Lo Shipmode
+    type: FILTER
