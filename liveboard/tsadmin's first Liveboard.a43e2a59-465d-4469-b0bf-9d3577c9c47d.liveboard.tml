@@ -1,0 +1,43 @@
+guid: a43e2a59-465d-4469-b0bf-9d3577c9c47d
+liveboard:
+  name: tsadmin's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Lo Discount by Lo Shipmode
+      tables:
+      - id: UNIQUE-jishnu.pavithran-UI-WS
+        name: UNIQUE-jishnu.pavithran-UI-WS
+        fqn: c5795b8e-142a-4d19-a32d-e4388359da3f
+      search_query: "[Lo Shipmode] [Lo Discount]"
+      answer_columns:
+      - name: Lo Shipmode
+      - name: Total Lo Discount
+      table:
+        table_columns:
+        - column_id: Lo Shipmode
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Lo Discount
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Lo Shipmode
+        - Total Lo Discount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Lo Shipmode
+        - column_id: Total Lo Discount
+        axis_configs:
+        - x:
+          - Lo Shipmode
+          "y":
+          - Total Lo Discount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Discount\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"485f130d-3d23-4694-bff4-c0d9a97be0da\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Discount\"],\"isOpposite\": false}},{\"id\": \"1ff80ec3-a778-4e3a-9d5a-b6cccf2baefd\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Discount\",\"color\": \"#FF8142\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a669a4c5-42ef-4975-8a19-1cacd402a21f
+  layout:
+    tiles:
+    - visualization_id: Viz_1
