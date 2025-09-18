@@ -1,160 +1,143 @@
-guid: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
-worksheet:
-  name: Parameters WS
-  tables:
+guid: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+model:
+  name: Parameters Model
+  model_tables:
   - name: LINEORDER
     fqn: 2445fe81-30d6-46fa-9f42-f6b1b4e01623
+    joins:
+    - with: PART
+      referencing_join: Lineorder PartKey - Part PartKey
   - name: PART
     fqn: a7fc012e-bdb3-4e75-9ce4-b3f731d90136
-  joins:
-  - name: Lineorder PartKey - Part PartKey
-    source: LINEORDER
-    destination: PART
-    type: INNER
-    is_one_to_one: false
-  table_paths:
-  - id: LINEORDER_1
-    table: LINEORDER
-  - id: PART_1
-    table: PART
-    join_path:
-    - join:
-      - Lineorder PartKey - Part PartKey
   formulas:
   - id: formula_Email Domain Masked Color
     name: Email Domain Masked Color
-    expr: "if ( [formula_Email Domain] = 'thoughtspot.com' ) then [PART_1::Color] else '****'"
-    was_auto_generated: false
+    expr: if ( [formula_Email Domain] = 'thoughtspot.com' ) then [PART::Color] else '****'
   - id: formula_Email Domain
     name: Email Domain
     expr: ts_email_domain
-    was_auto_generated: false
   - id: formula_Org Masked Revenue
     name: Org Masked Revenue
-    expr: "if ( [formula_Org Name] = 'primary' ) then [LINEORDER_1::Revenue] else [LINEORDER_1::Revenue] / 1000"
-    was_auto_generated: false
+    expr: if ( [formula_Org Name] = 'primary' ) then [LINEORDER::Revenue] else [LINEORDER::Revenue] / 1000
   - id: formula_Org Name
     name: Org Name
     expr: ts_orgname
-    was_auto_generated: false
   - id: formula_User-Masked Color
     name: User-Masked Color
-    expr: "if ( [formula_Username] = 'tsadmin' ) then [PART_1::Color] else '****'"
-    was_auto_generated: false
+    expr: if ( [formula_Username] = 'tsadmin' ) then [PART::Color] else '****'
   - id: formula_Username
     name: Username
     expr: ts_username
-    was_auto_generated: false
-  worksheet_columns:
+  columns:
   - name: Orderkey
-    column_id: LINEORDER_1::OrderKey
+    column_id: LINEORDER::OrderKey
     properties:
       column_type: ATTRIBUTE
   - name: Line Number
-    column_id: LINEORDER_1::Line Number
+    column_id: LINEORDER::Line Number
     properties:
       column_type: ATTRIBUTE
   - name: Lineorder Custkey
-    column_id: LINEORDER_1::Lineorder CustKey
+    column_id: LINEORDER::Lineorder CustKey
     properties:
       column_type: ATTRIBUTE
   - name: Lineorder Partkey
-    column_id: LINEORDER_1::Lineorder PartKey
+    column_id: LINEORDER::Lineorder PartKey
     properties:
       column_type: ATTRIBUTE
   - name: Lineorder Suppkey
-    column_id: LINEORDER_1::Lineorder Suppkey
+    column_id: LINEORDER::Lineorder Suppkey
     properties:
       column_type: ATTRIBUTE
   - name: Order Date
-    column_id: LINEORDER_1::Order Date
+    column_id: LINEORDER::Order Date
     properties:
       column_type: ATTRIBUTE
   - name: Order Priority
-    column_id: LINEORDER_1::Order Priority
+    column_id: LINEORDER::Order Priority
     properties:
       column_type: ATTRIBUTE
   - name: Ship Priority
-    column_id: LINEORDER_1::Ship Priority
+    column_id: LINEORDER::Ship Priority
     properties:
       column_type: ATTRIBUTE
   - name: Quantity
-    column_id: LINEORDER_1::Quantity
+    column_id: LINEORDER::Quantity
     properties:
       column_type: MEASURE
       aggregation: SUM
   - name: Extended Price
-    column_id: LINEORDER_1::Extended Price
+    column_id: LINEORDER::Extended Price
     properties:
       column_type: MEASURE
       aggregation: SUM
   - name: Order Total Price
-    column_id: LINEORDER_1::Order Total Price
+    column_id: LINEORDER::Order Total Price
     properties:
       column_type: MEASURE
       aggregation: SUM
   - name: Discount
-    column_id: LINEORDER_1::Discount
+    column_id: LINEORDER::Discount
     properties:
       column_type: MEASURE
       aggregation: SUM
   - name: Revenue
-    column_id: LINEORDER_1::Revenue
+    column_id: LINEORDER::Revenue
     properties:
       column_type: MEASURE
       aggregation: SUM
   - name: Supply Cost
-    column_id: LINEORDER_1::Supply Cost
+    column_id: LINEORDER::Supply Cost
     properties:
       column_type: MEASURE
       aggregation: SUM
   - name: Tax
-    column_id: LINEORDER_1::Tax
+    column_id: LINEORDER::Tax
     properties:
       column_type: MEASURE
       aggregation: SUM
   - name: Commit Date
-    column_id: LINEORDER_1::Commit Date
+    column_id: LINEORDER::Commit Date
     properties:
       column_type: ATTRIBUTE
   - name: Ship Mode
-    column_id: LINEORDER_1::Ship Mode
+    column_id: LINEORDER::Ship Mode
     properties:
       column_type: ATTRIBUTE
   - name: Part Partkey
-    column_id: PART_1::Part PartKey
+    column_id: PART::Part PartKey
     properties:
       column_type: ATTRIBUTE
   - name: Part Name
-    column_id: PART_1::Part Name
+    column_id: PART::Part Name
     properties:
       column_type: ATTRIBUTE
   - name: Manufacturer
-    column_id: PART_1::Manufacturer
+    column_id: PART::Manufacturer
     properties:
       column_type: ATTRIBUTE
   - name: Category
-    column_id: PART_1::Category
+    column_id: PART::Category
     properties:
       column_type: ATTRIBUTE
   - name: Brand1
-    column_id: PART_1::Brand1
+    column_id: PART::Brand1
     properties:
       column_type: ATTRIBUTE
   - name: Color
-    column_id: PART_1::Color
+    column_id: PART::Color
     properties:
       column_type: ATTRIBUTE
   - name: Type
-    column_id: PART_1::Type
+    column_id: PART::Type
     properties:
       column_type: ATTRIBUTE
   - name: Size
-    column_id: PART_1::Size
+    column_id: PART::Size
     properties:
       column_type: ATTRIBUTE
   - name: Container
-    column_id: PART_1::Container
+    column_id: PART::Container
     properties:
       column_type: ATTRIBUTE
   - name: Username
@@ -194,18 +177,18 @@ worksheet:
     spotter_config:
       is_spotter_enabled: true
   parameters:
-  - id: 491b359d-4282-4c66-8829-b24b05571098
+  - id: 67e123e2-a266-4f93-b1e0-8d26999e7cdf
     name: Boolean Param
     data_type: BOOL
-    default_value: "true"
+    default_value: 'true'
     list_config:
       list_choice:
-      - value: "true"
-        display_name: "Yes"
-      - value: "false"
-        display_name: "No"
+      - value: 'true'
+        display_name: 'Yes'
+      - value: 'false'
+        display_name: 'No'
     description: Boolean parameter with list value selection.
-  - id: 75bb2345-1997-4b00-b364-5fea0ec0c406
+  - id: d3085bcf-f0df-4eb3-85a6-3758cb8a3137
     name: Date List Param
     data_type: DATE
     default_value: 01/01/2022
@@ -236,12 +219,12 @@ worksheet:
       - value: 12/31/2022
         display_name: New Year’s Eve
     description: Date parameter with list value selection.
-  - id: 94af5fac-3afb-4781-aca1-a5ca97094661
+  - id: 0bac2281-6f8d-4236-a879-2c6a302e5e6f
     name: Date Param
     data_type: DATE
     default_value: 10/16/2022
     description: Date parameter with any value selection.
-  - id: 44cc11a1-e6da-438a-97cb-b9dbee3c566c
+  - id: 3c4a8c77-9ba8-49b4-b0c8-20e0b2d4e4fc
     name: Date Range Param
     data_type: DATE
     default_value: 10/16/2022
@@ -251,66 +234,66 @@ worksheet:
       include_min: true
       include_max: true
     description: Date parameter with range value selection.
-  - id: 29e9c1d8-9fcf-4b5b-a182-aca9c44d8051
+  - id: 209be149-5405-49c8-8d80-52545c2d372e
     name: Double List Param
     data_type: DOUBLE
-    default_value: "0.5"
+    default_value: '0.5'
     list_config:
       list_choice:
-      - value: "0.0"
-      - value: "0.25"
-      - value: "0.5"
-      - value: "0.75"
-      - value: "1.0"
+      - value: '0.0'
+      - value: '0.25'
+      - value: '0.5'
+      - value: '0.75'
+      - value: '1.0'
     description: Double parameter with list value selection.
-  - id: 3d4cefd7-caab-401c-a9a8-3f452414b82a
+  - id: ac3de863-915a-456f-b784-258470d6e17f
     name: Double Param
     data_type: DOUBLE
-    default_value: "1.0"
+    default_value: '1.0'
     description: Double parameter with any value selection.
-  - id: 0f15384d-ce96-4153-90ef-04462bb91cfe
+  - id: 5c0141e4-4a28-4b94-a49c-6a2b7af51729
     name: Double Range Param
     data_type: DOUBLE
-    default_value: "0.5"
+    default_value: '0.5'
     range_config:
-      range_min: "0.0"
-      range_max: "1.0"
+      range_min: '0.0'
+      range_max: '1.0'
       include_min: true
       include_max: true
     description: Double parameter with range value selection.
-  - id: 3e2d9e2d-e4e6-4319-8814-61d31f9b5fc5
+  - id: fd8902a7-f96e-4836-b8af-9ff961632054
     name: Integer List Param
     data_type: INT64
-    default_value: "3"
+    default_value: '3'
     list_config:
       list_choice:
-      - value: "1"
+      - value: '1'
         display_name: One
-      - value: "2"
+      - value: '2'
         display_name: Two
-      - value: "3"
+      - value: '3'
         display_name: Three
-      - value: "4"
+      - value: '4'
         display_name: Four
-      - value: "5"
+      - value: '5'
         display_name: Five
     description: Integer parameter with list value selection.
-  - id: db95c261-9e31-41fc-b9d9-4059062fc26f
+  - id: 96a2f556-1d27-446d-9db4-1fa915b04646
     name: Integer Param
     data_type: INT64
-    default_value: "1"
+    default_value: '1'
     description: Integer parameter with any value selection.
-  - id: 6afe392d-d188-4379-aef3-1a8632e147c8
+  - id: 3ddf1f83-2b3e-4191-9f39-09fc58fd0853
     name: Integer Range Param
     data_type: INT64
-    default_value: "5"
+    default_value: '5'
     range_config:
-      range_min: "0"
-      range_max: "10"
+      range_min: '0'
+      range_max: '10'
       include_min: true
       include_max: true
     description: Integer parameter with range value selection.
-  - id: 7ae8a9ec-612c-4160-9896-1e3afd7f9d02
+  - id: 8c96f609-a598-4277-be00-4e52f776605f
     name: String List Param
     data_type: CHAR
     default_value: air
@@ -321,7 +304,7 @@ worksheet:
       - value: car
       - value: ship
     description: String parameter with list value selection.
-  - id: f59b9087-2eb3-4116-ab87-bcdba25ceb01
+  - id: 158c7ad4-352f-4aab-986d-92ae131a1536
     name: String Param
     data_type: CHAR
     default_value: default

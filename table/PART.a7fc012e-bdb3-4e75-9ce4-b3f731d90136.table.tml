@@ -67,5 +67,5 @@ table:
     "on": "([PART::Part PartKey] = [Part Details::Part PartKey])"
     type: INNER
   properties:
-    sage_config:
-      is_sage_enabled: true
+    spotter_config:
+      is_spotter_enabled: true
