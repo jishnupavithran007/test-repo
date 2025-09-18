@@ -357,7 +357,7 @@ liveboard:
   - key: 6afe392d-d188-4379-aef3-1a8632e147c8
     value:
       name: Parameters WS::Integer Range Param
-      override_value: "2"
+      override_value: "3"
       secondary_parameter:
       - Parameters Model::Integer List Param
       display_name: Integer Range Param (Parameter WS)
@@ -437,7 +437,7 @@ liveboard:
       id: 94af5fac-3afb-4781-aca1-a5ca97094661
     - name: Parameters WS::Integer Range Param
       id: 6afe392d-d188-4379-aef3-1a8632e147c8
-      override_value: "2"
+      override_value: "3"
     - name: Parameters WS::Boolean Param
       id: 491b359d-4282-4c66-8829-b24b05571098
       override_value: "false"
@@ -464,7 +464,7 @@ liveboard:
       id: 94af5fac-3afb-4781-aca1-a5ca97094661
     - name: Parameters WS::Integer Range Param
       id: 6afe392d-d188-4379-aef3-1a8632e147c8
-      override_value: "2"
+      override_value: "3"
     - name: Parameters WS::Boolean Param
       id: 491b359d-4282-4c66-8829-b24b05571098
       override_value: "false"
