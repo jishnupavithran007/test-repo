@@ -1,0 +1,895 @@
+guid: 4e3edbb5-7737-41c1-8152-e513b789ce7c
+liveboard:
+  name: Copy of Linked parameter testing
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: 'Total Discount formula by Line Number @Integer Range Param '
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      formulas:
+      - id: formula_Discount formula
+        name: Discount formula
+        expr: "[Discount] * [Integer Range Param]"
+        was_auto_generated: false
+      search_query: "[formula_Discount formula]"
+      answer_columns:
+      - name: Total Discount formula
+      table:
+        table_columns:
+        - column_id: Total Discount formula
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Total Discount formula
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Discount formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Discount formula
+        axis_configs:
+        - "y":
+          - Total Discount formula
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Discount formula\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ba92136f-0159-4a21-a54a-cf61782f10a7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount formula\"],\"isOpposite\": false}},{\"id\": \"9b59d546-ba5e-410c-932f-5e77a2d3d148\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Discount formula\",\"color\": \"#06BF7F\"}]}"
+      display_mode: CHART_MODE
+      dynamic_name: "Total Discount formula by Line Number [${PARAMETER:Integer Range Param}] "
+    viz_guid: 9343c516-f9dc-4d8e-80e2-46e4f8380abb
+  - id: Viz_2
+    answer:
+      name: 'Total Quantity formula by Color @Integer List Param '
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      formulas:
+      - id: formula_Quantity formula
+        name: Quantity formula
+        expr: "[Quantity] * [Integer List Param]"
+        was_auto_generated: false
+      search_query: "[formula_Quantity formula]"
+      answer_columns:
+      - name: Total Quantity formula
+      table:
+        table_columns:
+        - column_id: Total Quantity formula
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Total Quantity formula
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Quantity formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Quantity formula
+        axis_configs:
+        - "y":
+          - Total Quantity formula
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Quantity formula\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"df124b22-5952-4e1e-8f7a-627dd8ced0a8\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity formula\"],\"isOpposite\": false}},{\"id\": \"d2576e08-4e1b-4578-a320-dcec371900c7\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity formula\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+      dynamic_name: "Total Quantity formula by Color [${PARAMETER:Integer List Param}] "
+    viz_guid: a8b0d0e4-1fd8-48ea-bdbd-d8a90adb61f1
+  - id: Viz_3
+    answer:
+      name: 'Total Bool formula by Line Number @Boolean Param '
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      formulas:
+      - id: formula_Bool formula
+        name: Bool formula
+        expr: "if ( [Boolean Param] ) then [Revenue] else [Tax]"
+        was_auto_generated: false
+      search_query: "[formula_Bool formula] [Line Number]"
+      answer_columns:
+      - name: Line Number
+      - name: Total Bool formula
+      table:
+        table_columns:
+        - column_id: Line Number
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Bool formula
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Total Bool formula
+        - Line Number
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Bool formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Line Number
+        - column_id: Total Bool formula
+        axis_configs:
+        - x:
+          - Line Number
+          "y":
+          - Total Bool formula
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Bool formula\",\"columnProperty\": {}},{\"columnId\": \"29784910-d692-4140-95a2-f49a2c25a5b6\",\"columnProperty\": {}},{\"columnId\": \"cd6a98fd-43de-4910-b17a-395dbcbae829\",\"columnProperty\": {}},{\"columnId\": \"Line Number\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"d3bbd13c-367c-4aa6-8d30-2e8f0f31535c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Bool formula\"],\"isOpposite\": false}},{\"id\": \"e7d27eaf-4813-4aa5-a3dc-c2c38a6ba5be\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Line Number\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Bool formula\",\"color\": \"#06BF7F\"}]}"
+      display_mode: CHART_MODE
+      dynamic_name: "Total Bool formula by Line Number [${PARAMETER:Boolean Param}] "
+    viz_guid: 3f6cf6c5-551c-413b-a172-1860e2a4c5c2
+  - id: Viz_4
+    answer:
+      name: 'Total Bool formula by Line Number @Boolean Param '
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      formulas:
+      - id: formula_Bool formula
+        name: Bool formula
+        expr: "if ( [Boolean Param] ) then [Revenue] else [Tax]"
+        was_auto_generated: false
+      search_query: "[formula_Bool formula] [Line Number]"
+      answer_columns:
+      - name: Line Number
+      - name: Total Bool formula
+      table:
+        table_columns:
+        - column_id: Line Number
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Bool formula
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Line Number
+        - Total Bool formula
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Bool formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Line Number
+        - column_id: Total Bool formula
+        axis_configs:
+        - x:
+          - Line Number
+          "y":
+          - Total Bool formula
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Bool formula\",\"columnProperty\": {}},{\"columnId\": \"8170cc95-13c2-4c35-bb6e-11d3a68ed1fe\",\"columnProperty\": {}},{\"columnId\": \"ad74b7a6-ba4e-4245-9886-5020174d0480\",\"columnProperty\": {}},{\"columnId\": \"Line Number\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a1fbb858-cc3f-41d5-bc83-2c24f1a26f40\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Bool formula\"],\"isOpposite\": false}},{\"id\": \"19f4a553-09ab-4e0c-a107-e910ff571ad5\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Line Number\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Bool formula\",\"color\": \"#FF8142\"}]}"
+      display_mode: CHART_MODE
+      dynamic_name: "Total Bool formula by Line Number [${PARAMETER:Boolean Param}] "
+    viz_guid: befff6fa-3c24-4e1a-afc4-e0735384faf5
+  - id: Viz_5
+    answer:
+      name: 'Total Date formula '
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      formulas:
+      - id: formula_Date formula
+        name: Date formula
+        expr: "if ( [Date Param] = 07/04/2022 ) then [Supply Cost] else 0"
+        was_auto_generated: false
+      search_query: "[formula_Date formula]"
+      answer_columns:
+      - name: Total Date formula
+      table:
+        table_columns:
+        - column_id: Total Date formula
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Total Date formula
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Date formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Date formula
+        axis_configs:
+        - "y":
+          - Total Date formula
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Date formula\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7be51d0f-45b7-48ef-b0ce-db41effcbaba\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Date formula\"],\"isOpposite\": false}},{\"id\": \"c09853d7-765f-4e14-abaf-9f6f1ae0faf4\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: CHART_MODE
+      dynamic_name: 'Total Date formula '
+    viz_guid: 890f14c6-42b8-4b6d-b510-216b1cd9c63d
+  - id: Viz_6
+    answer:
+      name: 'Total Date formula @Date List Param  '
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      formulas:
+      - id: formula_Date formula
+        name: Date formula
+        expr: "if ( [Date List Param] = 07/04/2022 ) then [Supply Cost] else 0"
+        was_auto_generated: false
+      search_query: "[formula_Date formula]"
+      answer_columns:
+      - name: Total Date formula
+      table:
+        table_columns:
+        - column_id: Total Date formula
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Total Date formula
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Date formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Date formula
+        axis_configs:
+        - "y":
+          - Total Date formula
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Date formula\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b80db0bd-203e-488b-8b19-8958d00ba7cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Date formula\"],\"isOpposite\": false}},{\"id\": \"340f5d1f-acf9-4a68-b11a-b02a0087cb4e\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: CHART_MODE
+      parameter_values:
+      - key: Date Range Param
+        value: 07/04/2022
+      dynamic_name: "Total Date formula [${PARAMETER:Date List Param}]  "
+    viz_guid: 3ad3cde0-b36d-428e-85dd-5d4ae4e4e7d7
+  - id: Viz_7
+    viz_guid: 018b0ec5-9612-419f-a249-70f8980dff03
+    note_tile:
+      html_parsed_string: "<h2 class=\"theme-module__editor-h2-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">W</span></h2><h2 class=\"theme-module__editor-h2-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">sasassTestingdsdasas</span></h2><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">ashjashjashjashjs</span></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: rgb(244, 126, 137);\"></div>"
+  - id: Viz_8
+    answer:
+      name: Total Date formula @Date Range Param
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      formulas:
+      - id: formula_Date formula
+        name: Date formula
+        expr: "if ( [Date Range Param] = 07/04/2022 ) then [Supply Cost] else 0"
+        was_auto_generated: false
+      search_query: "[formula_Date formula]"
+      answer_columns:
+      - name: Total Date formula
+      table:
+        table_columns:
+        - column_id: Total Date formula
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Total Date formula
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Date formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Date formula
+        axis_configs:
+        - "y":
+          - Total Date formula
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Date formula\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b80db0bd-203e-488b-8b19-8958d00ba7cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Date formula\"],\"isOpposite\": false}},{\"id\": \"340f5d1f-acf9-4a68-b11a-b02a0087cb4e\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: CHART_MODE
+      parameter_values:
+      - key: Date Range Param
+        value: 07/04/2022
+      dynamic_name: "Total Date formula [${PARAMETER:Date Range Param}] "
+    viz_guid: 6112d096-d84f-41a9-9ab3-e54f6d65bd65
+  - id: Viz_9
+    answer:
+      name: Total Integer List Param Column Quantity
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      search_query: "[Integer List Param Column Color] [Integer List Param Column Color set] [TEst query set]"
+      answer_columns:
+      - name: Integer List Param Column Color
+      - name: Integer List Param Column Color set
+      - name: TEst query set
+      table:
+        table_columns:
+        - column_id: Integer List Param Column Color
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Integer List Param Column Color set
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: TEst query set
+          headline_aggregation: COUNT_DISTINCT
+        ordered_column_ids:
+        - Integer List Param Column Color
+        - Integer List Param Column Color set
+        - TEst query set
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Integer List Param Column Color
+        - column_id: Integer List Param Column Color set
+        - column_id: TEst query set
+        axis_configs:
+        - "y":
+          - Integer List Param Column Color
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Integer List Param Column Color\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"106cd865-d4a1-460e-bd4d-27c9fd1077e8\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Integer List Param Column Color\"],\"isOpposite\": false}},{\"id\": \"d2696428-eab0-459e-9a9b-58161ac108a6\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: TABLE_MODE
+      parameter_values:
+      - key: Integer List Param
+        value: "1"
+    viz_guid: 9eb73742-9970-46d6-bb54-f4006452965b
+  - id: Viz_10
+    answer:
+      name: Total Integer List Param Column Quantity
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      search_query: "[Integer List Param Column Color] [Integer List Param Column Color set] [TEst query set]"
+      answer_columns:
+      - name: Integer List Param Column Color
+      - name: Integer List Param Column Color set
+      - name: TEst query set
+      table:
+        table_columns:
+        - column_id: Integer List Param Column Color
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Integer List Param Column Color set
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: TEst query set
+          headline_aggregation: COUNT_DISTINCT
+        ordered_column_ids:
+        - Integer List Param Column Color
+        - Integer List Param Column Color set
+        - TEst query set
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Integer List Param Column Color
+        - column_id: Integer List Param Column Color set
+        - column_id: TEst query set
+        axis_configs:
+        - "y":
+          - Integer List Param Column Color
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Integer List Param Column Color\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"106cd865-d4a1-460e-bd4d-27c9fd1077e8\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Integer List Param Column Color\"],\"isOpposite\": false}},{\"id\": \"d2696428-eab0-459e-9a9b-58161ac108a6\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: TABLE_MODE
+      parameter_values:
+      - key: Integer List Param
+        value: "1"
+    viz_guid: 85142222-8466-4d08-8573-cf2b097f7411
+  - id: Viz_11
+    answer:
+      name: Total Integer List Param Column Quantity
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      search_query: "[Integer List Param Column Color] [Integer List Param Column Color set] [TEst query set]"
+      answer_columns:
+      - name: Integer List Param Column Color
+      - name: Integer List Param Column Color set
+      - name: TEst query set
+      table:
+        table_columns:
+        - column_id: Integer List Param Column Color
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Integer List Param Column Color set
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: TEst query set
+          headline_aggregation: COUNT_DISTINCT
+        ordered_column_ids:
+        - Integer List Param Column Color
+        - Integer List Param Column Color set
+        - TEst query set
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Integer List Param Column Color
+        - column_id: Integer List Param Column Color set
+        - column_id: TEst query set
+        axis_configs:
+        - "y":
+          - Integer List Param Column Color
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Integer List Param Column Color\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"106cd865-d4a1-460e-bd4d-27c9fd1077e8\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Integer List Param Column Color\"],\"isOpposite\": false}},{\"id\": \"d2696428-eab0-459e-9a9b-58161ac108a6\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: TABLE_MODE
+      parameter_values:
+      - key: Integer List Param
+        value: "1"
+    viz_guid: c9263de6-07d3-4899-bfd3-c8f8f38df828
+  - id: Viz_12
+    answer:
+      name: Total Formula column test
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      search_query: "unique count [Formula column test] [Formula column test column set]"
+      answer_columns:
+      - name: Formula column test column set
+      - name: Unique Number of Formula column test
+      table:
+        table_columns:
+        - column_id: Formula column test column set
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Unique Number of Formula column test
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Formula column test column set
+        - Unique Number of Formula column test
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Unique Number of Formula column test\",\"columnProperty\": {}}]}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Formula column test column set
+        - column_id: Unique Number of Formula column test
+        axis_configs:
+        - x:
+          - Formula column test column set
+          "y":
+          - Unique Number of Formula column test
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Unique Number of Formula column test\",\"columnProperty\": {}},{\"columnId\": \"da9fa90c-2e0f-449d-994e-cf5fb1c351f8\",\"columnProperty\": {}},{\"columnId\": \"327e3dc3-70e1-47d3-b9c4-3a73b6097a48\",\"columnProperty\": {}},{\"columnId\": \"Formula column test column set\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"9b3d00b1-09cc-4d2a-a51a-1cbac52ca3c9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Unique Number of Formula column test\"],\"isOpposite\": false}},{\"id\": \"3a94689b-2ef8-4884-94bc-1b70e5312882\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Formula column test column set\"]}}]}"
+      display_mode: TABLE_MODE
+    viz_guid: 0f3527e5-29c7-4675-b5e6-34d21065006c
+  filters:
+  - column:
+    - Parameters Model::Color
+    - Parameters WS::Container
+    is_mandatory: false
+    is_single_value: false
+    display_name: Color Select
+  - column:
+    - Parameters WS::Category
+    is_mandatory: false
+    is_single_value: false
+    display_name: Category Parameter WS
+  - column:
+    - Parameters WS::Part Name
+    is_mandatory: false
+    is_single_value: false
+    display_name: Part Name Parameter WS
+  - column:
+    - Parameters Model::Integer List Param Column Color
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Parameters Model::Integer List Param Column Color set
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Parameters Model::TEst query set
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Parameters Model::Formula column test
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Parameters Model::Org Name
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Parameters Model::Formula column test column set
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tabs:
+    - name: Tab1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 4
+        height: 8
+        width: 6
+      - visualization_id: Viz_2
+        x: 6
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_3
+        x: 0
+        "y": 12
+        height: 8
+        width: 6
+      - visualization_id: Viz_5
+        x: 0
+        "y": 20
+        height: 2
+        width: 3
+      - visualization_id: Viz_6
+        x: 6
+        "y": 10
+        height: 4
+        width: 4
+      - visualization_id: Viz_7
+        x: 0
+        "y": 0
+        height: 4
+        width: 6
+      - visualization_id: Viz_8
+        x: 6
+        "y": 8
+        height: 2
+        width: 3
+      id: f8769b7b-8bff-43a2-bcce-eb22e6545bdf
+    - name: Tab2
+      description: ""
+      tiles:
+      - visualization_id: Viz_4
+        x: 0
+        "y": 5
+        height: 8
+        width: 6
+      - visualization_id: Viz_9
+        x: 0
+        "y": 13
+        height: 8
+        width: 12
+      - visualization_id: Viz_10
+        x: 0
+        "y": 21
+        height: 8
+        width: 12
+      - visualization_id: Viz_11
+        x: 0
+        "y": 29
+        height: 8
+        width: 12
+      - visualization_id: Viz_12
+        x: 0
+        "y": 0
+        height: 5
+        width: 10
+      id: d5311dc1-5af7-4707-aee0-293d7f51fbe7
+  parameter_overrides:
+  - key: 94af5fac-3afb-4781-aca1-a5ca97094661
+    value:
+      name: Parameters WS::Date Param
+      secondary_parameter:
+      - Parameters Model::Date List Param
+      display_name: Date Param (Parameter WS)
+  - key: 6afe392d-d188-4379-aef3-1a8632e147c8
+    value:
+      name: Parameters WS::Integer Range Param
+      override_value: "3"
+      secondary_parameter:
+      - Parameters Model::Integer List Param
+      display_name: Integer Range Param (Parameter WS)
+  - key: 491b359d-4282-4c66-8829-b24b05571098
+    value:
+      name: Parameters WS::Boolean Param
+      override_value: "false"
+      secondary_parameter:
+      - Parameters Model::Boolean Param
+      display_name: Boolean Param (Parameter WS) Select
+  ordered_chips:
+  - name: Parameters WS::Integer Range Param
+    type: PARAMETER
+  - name: Parameters WS::Boolean Param
+    type: PARAMETER
+  - name: Parameters Model::Color
+    type: FILTER
+  - name: Parameters WS::Category
+    type: FILTER
+  - name: Parameters WS::Part Name
+    type: FILTER
+  - name: Parameters WS::Date Param
+    type: PARAMETER
+  - name: Parameters Model::Integer List Param Column Color
+    type: FILTER
+  - name: Parameters Model::Integer List Param Column Color set
+    type: FILTER
+  - name: Parameters Model::TEst query set
+    type: FILTER
+  - name: Parameters Model::Formula column test
+    type: FILTER
+  - name: Parameters Model::Org Name
+    type: FILTER
+  - name: Parameters Model::Formula column test column set
+    type: FILTER
+  views:
+  - view_guid: b855db96-c1ae-4ed8-a5cd-7c880d6109da
+    name: V5
+    view_filters:
+    - column:
+      - Parameters Model::Color
+      oper: =
+    - column:
+      - Parameters WS::Category
+      oper: =
+    - column:
+      - Parameters WS::Part Name
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color set
+      oper: =
+    - column:
+      - Parameters Model::TEst query set
+      oper: =
+    - column:
+      - Parameters Model::Formula column test
+      oper: in
+      values:
+      - "3"
+    - column:
+      - Parameters Model::Org Name
+      oper: =
+    - column:
+      - Parameters Model::Formula column test column set
+      oper: =
+    is_public: false
+    view_parameters:
+    - name: Parameters WS::Date Param
+      id: 94af5fac-3afb-4781-aca1-a5ca97094661
+      override_value: 07/04/2022
+    - name: Parameters WS::Integer Range Param
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "1"
+    - name: Parameters WS::Boolean Param
+      id: 491b359d-4282-4c66-8829-b24b05571098
+      override_value: "false"
+  - view_guid: 9eadd059-f3ca-4f67-a480-b39fe97da407
+    name: V6
+    view_filters:
+    - column:
+      - Parameters Model::Color
+      oper: =
+    - column:
+      - Parameters WS::Category
+      oper: =
+    - column:
+      - Parameters WS::Part Name
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color set
+      oper: =
+    - column:
+      - Parameters Model::TEst query set
+      oper: =
+    - column:
+      - Parameters Model::Formula column test
+      oper: =
+    - column:
+      - Parameters Model::Org Name
+      oper: =
+    - column:
+      - Parameters Model::Formula column test column set
+      oper: =
+    is_public: false
+    view_parameters:
+    - name: Parameters WS::Date Param
+      id: 94af5fac-3afb-4781-aca1-a5ca97094661
+      override_value: 07/04/2022
+    - name: Parameters WS::Integer Range Param
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "1"
+    - name: Parameters WS::Boolean Param
+      id: 491b359d-4282-4c66-8829-b24b05571098
+      override_value: "false"
+  - view_guid: 9bf4e81b-b7c4-45ce-9f13-6b3b71fdf5bc
+    name: V2
+    view_filters:
+    - column:
+      - Parameters Model::Color
+      oper: =
+    - column:
+      - Parameters WS::Category
+      oper: =
+    - column:
+      - Parameters WS::Part Name
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color set
+      oper: =
+    - column:
+      - Parameters Model::TEst query set
+      oper: =
+    - column:
+      - Parameters Model::Formula column test
+      oper: in
+      values:
+      - "3"
+    - column:
+      - Parameters Model::Org Name
+      oper: =
+    - column:
+      - Parameters Model::Formula column test column set
+      oper: =
+    is_public: false
+    view_parameters:
+    - name: Parameters WS::Date Param
+      id: 94af5fac-3afb-4781-aca1-a5ca97094661
+    - name: Parameters WS::Integer Range Param
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "2"
+    - name: Parameters WS::Boolean Param
+      id: 491b359d-4282-4c66-8829-b24b05571098
+      override_value: "false"
+  - view_guid: 90f25b96-0114-44ce-ba67-526419a02ebc
+    name: V1
+    view_filters:
+    - column:
+      - Parameters Model::Color
+      oper: =
+    - column:
+      - Parameters WS::Category
+      oper: =
+    - column:
+      - Parameters WS::Part Name
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color set
+      oper: =
+    - column:
+      - Parameters Model::TEst query set
+      oper: =
+    - column:
+      - Parameters Model::Formula column test
+      oper: in
+      values:
+      - "3"
+    - column:
+      - Parameters Model::Org Name
+      oper: =
+    - column:
+      - Parameters Model::Formula column test column set
+      oper: =
+    is_public: false
+    view_parameters:
+    - name: Parameters WS::Date Param
+      id: 94af5fac-3afb-4781-aca1-a5ca97094661
+    - name: Parameters WS::Integer Range Param
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "3"
+    - name: Parameters WS::Boolean Param
+      id: 491b359d-4282-4c66-8829-b24b05571098
+      override_value: "false"
+  - view_guid: 529598a7-834d-41f1-a8fe-e21360ca1d83
+    name: V4
+    view_filters:
+    - column:
+      - Parameters Model::Color
+      oper: =
+    - column:
+      - Parameters WS::Category
+      oper: =
+    - column:
+      - Parameters WS::Part Name
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color set
+      oper: =
+    - column:
+      - Parameters Model::TEst query set
+      oper: =
+    - column:
+      - Parameters Model::Formula column test
+      oper: in
+      values:
+      - "3"
+    - column:
+      - Parameters Model::Org Name
+      oper: =
+    - column:
+      - Parameters Model::Formula column test column set
+      oper: =
+    is_public: false
+    view_parameters:
+    - name: Parameters WS::Date Param
+      id: 94af5fac-3afb-4781-aca1-a5ca97094661
+    - name: Parameters WS::Integer Range Param
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "6"
+    - name: Parameters WS::Boolean Param
+      id: 491b359d-4282-4c66-8829-b24b05571098
+      override_value: "false"
+  - view_guid: 0ea50209-c103-486d-baf3-18e587b5e571
+    name: V7
+    view_filters:
+    - column:
+      - Parameters Model::Color
+      oper: =
+    - column:
+      - Parameters WS::Category
+      oper: =
+    - column:
+      - Parameters WS::Part Name
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color
+      oper: in
+      values:
+      - almond burnished
+    - column:
+      - Parameters Model::Integer List Param Column Color set
+      oper: =
+    - column:
+      - Parameters Model::TEst query set
+      oper: =
+    - column:
+      - Parameters Model::Formula column test
+      oper: in
+      values:
+      - "3"
+    - column:
+      - Parameters Model::Org Name
+      oper: =
+    - column:
+      - Parameters Model::Formula column test column set
+      oper: =
+    is_public: false
+    view_parameters:
+    - name: Parameters WS::Date Param
+      id: 94af5fac-3afb-4781-aca1-a5ca97094661
+    - name: Parameters WS::Integer Range Param
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "6"
+    - name: Parameters WS::Boolean Param
+      id: 491b359d-4282-4c66-8829-b24b05571098
+      override_value: "false"
+  - view_guid: 0322d0be-db6b-4fe9-8efd-6af10565ff64
+    name: V3
+    view_filters:
+    - column:
+      - Parameters Model::Color
+      oper: =
+    - column:
+      - Parameters WS::Category
+      oper: =
+    - column:
+      - Parameters WS::Part Name
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color
+      oper: =
+    - column:
+      - Parameters Model::Integer List Param Column Color set
+      oper: =
+    - column:
+      - Parameters Model::TEst query set
+      oper: =
+    - column:
+      - Parameters Model::Formula column test
+      oper: in
+      values:
+      - "3"
+    - column:
+      - Parameters Model::Org Name
+      oper: =
+    - column:
+      - Parameters Model::Formula column test column set
+      oper: =
+    is_public: false
+    view_parameters:
+    - name: Parameters WS::Date Param
+      id: 94af5fac-3afb-4781-aca1-a5ca97094661
+    - name: Parameters WS::Integer Range Param
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "3"
+    - name: Parameters WS::Boolean Param
+      id: 491b359d-4282-4c66-8829-b24b05571098
+      override_value: "false"

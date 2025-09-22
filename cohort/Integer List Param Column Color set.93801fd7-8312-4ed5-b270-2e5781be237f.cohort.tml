@@ -1,0 +1,23 @@
+guid: 93801fd7-8312-4ed5-b270-2e5781be237f
+cohort:
+  name: Integer List Param Column Color set
+  owner: tsadmin
+  worksheet:
+    id: Parameters Model
+    name: Parameters Model
+    fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+  config:
+    null_output_value: Ungrouped values
+    combine_non_group_values: false
+    cohort_type: SIMPLE
+    anchor_column_id: Integer List Param Column Color
+    groups:
+    - name: Group 1
+      conditions:
+      - operator: EQ
+        value:
+        - almond
+        column_name: Integer List Param Column Color
+        filter_value_type: STRING
+      combine_type: ALL
+    cohort_grouping_type: GROUP_BASED

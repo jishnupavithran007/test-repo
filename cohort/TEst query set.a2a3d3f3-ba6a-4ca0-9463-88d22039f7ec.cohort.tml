@@ -1,0 +1,35 @@
+guid: a2a3d3f3-ba6a-4ca0-9463-88d22039f7ec
+cohort:
+  name: TEst query set
+  answer:
+    tables:
+    - id: Parameters Model
+      name: Parameters Model
+      fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+    search_query: "[Integer List Param Column Color] [Tax]"
+    answer_columns:
+    - name: Integer List Param Column Color
+    - name: Total Tax
+    table:
+      table_columns:
+      - column_id: Integer List Param Column Color
+        headline_aggregation: COUNT_DISTINCT
+      - column_id: Total Tax
+        headline_aggregation: SUM
+      ordered_column_ids:
+      - Integer List Param Column Color
+      - Total Tax
+      client_state: ""
+      client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Integer List Param Column Color\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}}]}"
+    display_mode: TABLE_MODE
+  owner: tsadmin
+  worksheet:
+    id: Parameters Model
+    name: Parameters Model
+    fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+  config:
+    cohort_type: ADVANCED
+    anchor_column_id: Integer List Param Column Color
+    return_column_id: Total Tax
+    cohort_grouping_type: COLUMN_BASED
+    hide_excluded_query_values: true
