@@ -568,8 +568,6 @@ liveboard:
     value:
       name: Parameters WS::Boolean Param
       override_value: "false"
-      secondary_parameter:
-      - Parameters Model::Boolean Param
       display_name: Boolean Param (Parameter WS)
   ordered_chips:
   - name: Parameters WS::Integer Range Param
