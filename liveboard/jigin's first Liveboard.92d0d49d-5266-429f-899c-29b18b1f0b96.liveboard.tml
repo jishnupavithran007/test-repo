@@ -769,6 +769,23 @@ liveboard:
   - name: Parameters WS::Integer Param
     type: PARAMETER
   views:
+  - view_guid: 409daccd-ac09-4c21-88d1-841b883f0e77
+    name: view 2
+    view_filters:
+    - column:
+      - Color
+      oper: in
+    - column:
+      - Discount
+      oper: '>'
+      values:
+      - "0"
+    is_public: false
+    view_parameters:
+    - name: String Param
+      id: f59b9087-2eb3-4116-ab87-bcdba25ceb01
+    - name: Integer Param
+      id: db95c261-9e31-41fc-b9d9-4059062fc26f
   - view_guid: 3dd18882-90d7-4fac-a2c5-9163e03404c7
     name: view 1
     view_filters:
