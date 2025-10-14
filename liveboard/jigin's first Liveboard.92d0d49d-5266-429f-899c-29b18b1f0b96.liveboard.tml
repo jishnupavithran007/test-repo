@@ -622,6 +622,7 @@ liveboard:
     visualizations:
     - Viz_4
     - Viz_2
+    - Viz_3
     group_guid: 12f623d1-c86f-43ec-b241-a89463a8f9e3
   - id: Group_2
     name: Group 2
@@ -663,11 +664,6 @@ liveboard:
     - name: tab 1
       description: ""
       tiles:
-      - visualization_id: Viz_3
-        x: 0
-        "y": 0
-        height: 8
-        width: 6
       - visualization_id: Viz_7
         x: 0
         "y": 13
@@ -680,8 +676,8 @@ liveboard:
         width: 12
       - visualization_id: Group_1
         x: 3
-        "y": 8
-        height: 5
+        "y": 0
+        height: 13
         width: 9
       - visualization_id: Viz_11
         x: 0
@@ -697,16 +693,21 @@ liveboard:
       group_layouts:
       - id: Group_1
         tiles:
-        - visualization_id: Viz_2
-          x: 0
-          "y": 0
-          height: 5
-          width: 8
         - visualization_id: Viz_4
           x: 8
           "y": 0
           height: 2
           width: 3
+        - visualization_id: Viz_2
+          x: 0
+          "y": 0
+          height: 5
+          width: 8
+        - visualization_id: Viz_3
+          x: 0
+          "y": 5
+          height: 11
+          width: 8
       - id: Group_2
         tiles:
         - visualization_id: Viz_5
@@ -886,7 +887,7 @@ liveboard:
     - object_id: Group_1
       style_properties:
       - name: group_brand_color
-        value: GBC_F
+        value: GBC_D
       - name: hide_group_title
         value: "false"
       - name: hide_group_description
