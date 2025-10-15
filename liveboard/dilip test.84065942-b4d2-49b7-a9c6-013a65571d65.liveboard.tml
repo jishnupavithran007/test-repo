@@ -46,7 +46,7 @@ liveboard:
           - Total Quantity
           - Total parameter
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Total parameter\",\"columnProperty\": {}},{\"columnId\": \"f800141d-a155-4e8c-a8ff-d62c6eaf6b90\",\"columnProperty\": {}},{\"columnId\": \"baeeaf82-ff27-4060-90ba-0257caf45ad8\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"da9a381c-fc08-47b6-aeb6-40a70087ba7d\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"8468b5e0-aa7f-45d8-994a-5e8f2e4dc6a3\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total parameter\"],\"isOpposite\": true}},{\"id\": \"930ec048-b492-4c91-b4d7-26bc5051af56\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total parameter\",\"color\": \"#2E75F0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Total parameter\",\"columnProperty\": {}},{\"columnId\": \"807bd361-f9d0-409d-a0b6-989b5c8c00fe\",\"columnProperty\": {}},{\"columnId\": \"68ae3c60-6f7d-42b1-b5c2-ed59e56ba1b9\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"da9a381c-fc08-47b6-aeb6-40a70087ba7d\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"8468b5e0-aa7f-45d8-994a-5e8f2e4dc6a3\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total parameter\"],\"isOpposite\": true}},{\"id\": \"930ec048-b492-4c91-b4d7-26bc5051af56\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total parameter\",\"color\": \"#2E75F0\"}]}"
       display_mode: TABLE_MODE
     viz_guid: 87d476e9-cd54-4a8c-a800-f40be1892139
   - id: Viz_2
@@ -94,7 +94,7 @@ liveboard:
           - Total Revenue
           - Total form
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total form\",\"columnProperty\": {}},{\"columnId\": \"Total Revenue\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e56b15e9-27c6-4253-b1a5-ec6c8a859931\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"0a499507-f380-4785-bd10-dac01c99a3eb\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total form\"],\"isOpposite\": true}},{\"id\": \"d777fba5-734c-481d-bfd5-3b92b5f107b6\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Revenue\",\"columnProperty\": {}},{\"columnId\": \"Total form\",\"columnProperty\": {}},{\"columnId\": \"Category\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7e176b03-d064-4940-9852-3234d2540b4c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"2837702d-1399-493c-a7c4-278f6df639ec\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total form\"],\"isOpposite\": true}},{\"id\": \"0742dac6-55dd-4346-a172-f9efe632c683\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}]}"
       display_mode: TABLE_MODE
       dynamic_name: "Total Revenue, Total form by Category"
       dynamic_description: param ws
@@ -115,16 +115,24 @@ liveboard:
   - key: db95c261-9e31-41fc-b9d9-4059062fc26f
     value:
       name: Parameters WS::Integer Param
-      secondary_parameter:
-      - Parameters Model::Integer Param
+  - key: 96a2f556-1d27-446d-9db4-1fa915b04646
+    value:
+      name: Parameters Model::Integer Param
+      override_value: "1"
+      display_name: Integer Param disp name
   ordered_chips:
   - name: Parameters WS::Integer Param
+    type: PARAMETER
+  - name: Parameters Model::Integer Param
     type: PARAMETER
   views:
   - view_guid: 24dde341-5596-4990-83f4-e3c6503c6f30
     name: pv2
     is_public: false
     view_parameters:
+    - name: Parameters Model::Integer Param
+      id: 96a2f556-1d27-446d-9db4-1fa915b04646
+      override_value: "1"
     - name: Parameters WS::Integer Param
       id: db95c261-9e31-41fc-b9d9-4059062fc26f
       override_value: "2"
