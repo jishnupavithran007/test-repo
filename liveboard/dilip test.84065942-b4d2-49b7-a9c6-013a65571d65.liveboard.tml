@@ -118,6 +118,7 @@ liveboard:
       override_value: "3"
       secondary_parameter:
       - Parameters Model::Integer Param
+      display_name: Integer Param name update
   ordered_chips:
   - name: Parameters WS::Integer Param
     type: PARAMETER
