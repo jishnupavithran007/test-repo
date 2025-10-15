@@ -115,7 +115,9 @@ liveboard:
   - key: db95c261-9e31-41fc-b9d9-4059062fc26f
     value:
       name: Parameters WS::Integer Param
-      override_value: "2"
+      override_value: "3"
+      secondary_parameter:
+      - Parameters Model::Integer Param
       display_name: Integer Param name update
   ordered_chips:
   - name: Parameters WS::Integer Param
