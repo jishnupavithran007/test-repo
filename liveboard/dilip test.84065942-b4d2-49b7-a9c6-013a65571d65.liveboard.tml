@@ -99,33 +99,18 @@ liveboard:
       dynamic_name: "Total Revenue, Total form by Category"
       dynamic_description: param ws
     viz_guid: 59ee2ed1-6504-4c95-ad19-6bee591191a4
-  groups:
-  - id: Group_1
-    name: Group 1
-    visualizations:
-    - Viz_1
-    - Viz_2
-    group_guid: c6819c83-92fa-457f-854b-25d69b8fc171
   layout:
     tiles:
-    - visualization_id: Group_1
+    - visualization_id: Viz_1
       x: 0
       "y": 0
-      height: 15
+      height: 8
       width: 12
-    group_layouts:
-    - id: Group_1
-      tiles:
-      - visualization_id: Viz_2
-        x: 0
-        "y": 8
-        height: 8
-        width: 12
-      - visualization_id: Viz_1
-        x: 0
-        "y": 0
-        height: 8
-        width: 12
+    - visualization_id: Viz_2
+      x: 0
+      "y": 8
+      height: 8
+      width: 12
   parameter_overrides:
   - key: db95c261-9e31-41fc-b9d9-4059062fc26f
     value:
@@ -143,19 +128,3 @@ liveboard:
     - name: Parameters WS::Integer Param
       id: db95c261-9e31-41fc-b9d9-4059062fc26f
       override_value: "2"
-  style:
-    style_properties:
-    - name: lb_border_type
-      value: CURVED
-    - name: lb_brand_color
-      value: LBC_A
-    - name: hide_group_title
-      value: "false"
-    - name: hide_group_description
-      value: "false"
-    - name: hide_group_tile_description
-      value: "false"
-    - name: hide_tile_description
-      value: "false"
-    - name: kpi_hero_font_size
-      value: M
