@@ -113,16 +113,24 @@ liveboard:
   - key: db95c261-9e31-41fc-b9d9-4059062fc26f
     value:
       name: Parameters WS::Integer Param
-      secondary_parameter:
-      - Parameters Model::Integer Param
+  - key: 96a2f556-1d27-446d-9db4-1fa915b04646
+    value:
+      name: Parameters Model::Integer Param
+      override_value: "1"
+      display_name: Integer Param disp name
   ordered_chips:
   - name: Parameters WS::Integer Param
+    type: PARAMETER
+  - name: Parameters Model::Integer Param
     type: PARAMETER
   views:
   - view_guid: 24dde341-5596-4990-83f4-e3c6503c6f30
     name: pv2
     is_public: false
     view_parameters:
+    - name: ""
+      id: 96a2f556-1d27-446d-9db4-1fa915b04646
+      override_value: "1"
     - name: Integer Param
       id: db95c261-9e31-41fc-b9d9-4059062fc26f
       override_value: "2"
