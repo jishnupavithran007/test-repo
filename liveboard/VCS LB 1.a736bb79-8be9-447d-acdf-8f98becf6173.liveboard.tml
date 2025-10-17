@@ -172,12 +172,43 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Month(Commit Date)\",\"columnProperty\": {}},{\"columnId\": \"Total Extended Price\",\"columnProperty\": {}},{\"columnId\": \"49cd899f-5434-4a3d-8f7d-cefe8a9a6da5\",\"columnProperty\": {}},{\"columnId\": \"5f0e09d7-f3f5-41b7-a906-9e3e20117047\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"580c35d7-48f1-4a14-87bd-629ff50eb73b\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Extended Price\"],\"isOpposite\": false}},{\"id\": \"95bd9ce9-321f-468c-9d57-200062520fcf\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Commit Date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Extended Price\",\"color\": \"#06BF7F\"}]}"
       display_mode: CHART_MODE
     viz_guid: 49d66290-d1d3-4c3e-b8dd-4efbccdd6c46
+  groups:
+  - id: Group_1
+    name: Group 1
+    visualizations:
+    - Viz_2
+    - Viz_1
+    group_guid: eead0a25-dcd3-491f-9660-afa2f5cd56e3
   layout:
     tiles:
-    - visualization_id: Viz_1
-    - visualization_id: Viz_2
     - visualization_id: Viz_3
+      x: 0
+      "y": 8
+      height: 8
+      width: 6
     - visualization_id: Viz_4
+      x: 6
+      "y": 8
+      height: 8
+      width: 6
+    - visualization_id: Group_1
+      x: 0
+      "y": 0
+      height: 8
+      width: 12
+    group_layouts:
+    - id: Group_1
+      tiles:
+      - visualization_id: Viz_2
+        x: 6
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
   style:
     style_properties:
     - name: lb_border_type
