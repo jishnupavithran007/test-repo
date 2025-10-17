@@ -1057,11 +1057,5 @@ liveboard:
     overrides:
     - object_id: Viz_6
       style_properties:
-      - name: tile_brand_color
-        value: TBC_D
-      - name: hide_tile_description
-        value: "false"
-      - name: kpi_hero_font_size
-        value: M
       - name: is_linked
-        value: "false"
+        value: "true"
