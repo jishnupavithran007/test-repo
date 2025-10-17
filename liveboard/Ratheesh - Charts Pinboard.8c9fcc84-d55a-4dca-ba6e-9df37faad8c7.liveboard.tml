@@ -931,7 +931,7 @@ liveboard:
   - id: Viz_15
     viz_guid: df85877a-7aa0-44d6-8fd6-539434df567e
     note_tile:
-      html_parsed_string: "<h2 class=\"theme-module__editor-h2-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">sas</span></h2><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">da</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasasd</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasd</span></p><p class=\"theme-module__editor-paragraph-spaced\"><br></p><table class=\"theme-module__editor-table\"><colgroup><col><col><col></colgroup><tbody><tr><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start; background-color: rgb(242, 243, 245);\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start; background-color: rgb(242, 243, 245);\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start; background-color: rgb(242, 243, 245);\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th></tr><tr><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start; background-color: rgb(242, 243, 245);\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><td class=\"theme-module__editor-table-cell\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></td><td class=\"theme-module__editor-table-cell\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></td></tr><tr><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start; background-color: rgb(242, 243, 245);\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><td class=\"theme-module__editor-table-cell\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></td><td class=\"theme-module__editor-table-cell\" style=\"border: 1px solid black; width: 75px; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></td></tr></tbody></table><p class=\"theme-module__editor-paragraph-spaced\"><br></p><hr><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasd</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asa</span></p><hr><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasda</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdaasdas</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><br></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: rgb(252, 210, 213);\"></div>"
+      html_parsed_string: "<h2 class=\"theme-module__editor-h2-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">sas</span></h2><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">da</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasasd</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasd</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">sadsdf</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><br></p><table class=\"theme-module__editor-table\"><colgroup><col><col><col></colgroup><tbody><tr><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"width: 75px; background-color: rgb(242, 243, 245); border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"width: 75px; background-color: rgb(242, 243, 245); border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"width: 75px; background-color: rgb(242, 243, 245); border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th></tr><tr><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"width: 75px; background-color: rgb(242, 243, 245); border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><td class=\"theme-module__editor-table-cell\" style=\"width: 75px; border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\" style=\"text-align: start;\"><br></p></td><td class=\"theme-module__editor-table-cell\" style=\"width: 75px; border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\" style=\"text-align: start;\"><br></p></td></tr><tr><th class=\"theme-module__editor-table-cell theme-module__editor-table-cell-header\" style=\"width: 75px; background-color: rgb(242, 243, 245); border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\"><br></p></th><td class=\"theme-module__editor-table-cell\" style=\"width: 75px; border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\" style=\"text-align: start;\"><br></p></td><td class=\"theme-module__editor-table-cell\" style=\"width: 75px; border: 1px solid black; vertical-align: top; text-align: start;\"><p class=\"theme-module__editor-paragraph-spaced\" style=\"text-align: start;\"><br></p></td></tr></tbody></table><p class=\"theme-module__editor-paragraph-spaced\"><br></p><hr><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasd</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asa</span></p><hr><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdasda</span></p><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">asdaasdas</span></p><p class=\"theme-module__editor-paragraph-spaced\"><br></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: rgb(176, 148, 248);\"></div>"
   groups:
   - id: Group_1
     name: Demo
@@ -950,52 +950,52 @@ liveboard:
     tiles:
     - visualization_id: Viz_5
       x: 0
-      "y": 12
+      "y": 4
       height: 8
       width: 6
     - visualization_id: Viz_6
       x: 6
-      "y": 8
+      "y": 0
       height: 8
       width: 6
     - visualization_id: Viz_7
       x: 6
-      "y": 32
+      "y": 24
       height: 8
       width: 6
     - visualization_id: Viz_8
       x: 6
-      "y": 16
+      "y": 8
       height: 8
       width: 6
     - visualization_id: Viz_9
       x: 0
-      "y": 28
+      "y": 20
       height: 8
       width: 6
     - visualization_id: Viz_10
       x: 6
-      "y": 24
+      "y": 16
       height: 8
       width: 6
     - visualization_id: Viz_11
       x: 0
-      "y": 36
+      "y": 28
       height: 8
       width: 6
     - visualization_id: Viz_12
       x: 0
-      "y": 20
+      "y": 12
       height: 8
       width: 6
     - visualization_id: Viz_13
       x: 0
-      "y": 44
+      "y": 36
       height: 8
       width: 6
     - visualization_id: Viz_14
       x: 0
-      "y": 52
+      "y": 44
       height: 4
       width: 12
     - visualization_id: Viz_15
@@ -1005,24 +1005,24 @@ liveboard:
       width: 3
     - visualization_id: Group_1
       x: 0
-      "y": 56
+      "y": 48
       height: 8
       width: 6
     - visualization_id: Group_2
       x: 6
-      "y": 56
+      "y": 48
       height: 8
       width: 6
     group_layouts:
     - id: Group_1
       tiles:
-      - visualization_id: Viz_1
-        x: 6
+      - visualization_id: Viz_2
+        x: 0
         "y": 0
         height: 14
         width: 6
-      - visualization_id: Viz_2
-        x: 0
+      - visualization_id: Viz_1
+        x: 6
         "y": 0
         height: 14
         width: 6
