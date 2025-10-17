@@ -946,26 +946,22 @@ liveboard:
     - Viz_3
     - Viz_4
     group_guid: e2af38b8-fc4e-4e8b-becd-8c7ea298b064
+  - id: Group_3
+    name: Group 3
+    visualizations:
+    - Viz_5
+    - Viz_6
+    group_guid: 3dc58d23-63bb-43c7-98b6-837b83247120
   layout:
     tiles:
-    - visualization_id: Viz_5
-      x: 0
-      "y": 4
-      height: 8
-      width: 6
-    - visualization_id: Viz_6
-      x: 6
-      "y": 0
-      height: 8
-      width: 6
     - visualization_id: Viz_7
       x: 6
-      "y": 24
+      "y": 28
       height: 8
       width: 6
     - visualization_id: Viz_8
       x: 6
-      "y": 8
+      "y": 12
       height: 8
       width: 6
     - visualization_id: Viz_9
@@ -975,7 +971,7 @@ liveboard:
       width: 6
     - visualization_id: Viz_10
       x: 6
-      "y": 16
+      "y": 20
       height: 8
       width: 6
     - visualization_id: Viz_11
@@ -1013,6 +1009,11 @@ liveboard:
       "y": 48
       height: 8
       width: 6
+    - visualization_id: Group_3
+      x: 0
+      "y": 4
+      height: 8
+      width: 12
     group_layouts:
     - id: Group_1
       tiles:
@@ -1037,6 +1038,18 @@ liveboard:
         x: 6
         "y": 0
         height: 14
+        width: 6
+    - id: Group_3
+      tiles:
+      - visualization_id: Viz_5
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_6
+        x: 6
+        "y": 0
+        height: 8
         width: 6
   style:
     style_properties:
