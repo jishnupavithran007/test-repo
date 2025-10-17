@@ -1,6 +1,6 @@
 guid: 9bd202f5-d431-44bf-9a07-b4f7be372125
 liveboard:
-  name: Parameters Liveboard 1
+  name: Parameters Liveboard
   visualizations:
   - id: Viz_1
     answer:
@@ -173,35 +173,15 @@ liveboard:
       display_mode: CHART_MODE
     viz_guid: 754977f5-177a-492b-b79a-b703e33db9ef
   layout:
-    tabs:
-    - name: t1
-      description: ""
-      tiles:
-      - visualization_id: Viz_1
-        x: 0
-        "y": 0
-        height: 2
-        width: 3
-      - visualization_id: Viz_3
-        x: 0
-        "y": 2
-        height: 8
-        width: 6
-      - visualization_id: Viz_4
-        x: 6
-        "y": 0
-        height: 8
-        width: 6
-      id: 99f3b96f-752a-4cb8-9868-990f4001f9d8
-    - name: t2
-      description: ""
-      tiles:
-      - visualization_id: Viz_2
-        x: 3
-        "y": 0
-        height: 2
-        width: 3
-      id: d6d5c0ab-ef7a-4b35-8272-c8669c63412f
+    tiles:
+    - visualization_id: Viz_1
+      size: EXTRA_SMALL
+    - visualization_id: Viz_2
+      size: EXTRA_SMALL
+    - visualization_id: Viz_4
+      size: MEDIUM
+    - visualization_id: Viz_3
+      size: MEDIUM
   parameter_overrides:
   - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
     value:
@@ -216,46 +196,3 @@ liveboard:
     type: PARAMETER
   - name: Parameters WS::Integer Range Param
     type: PARAMETER
-  style:
-    style_properties:
-    - name: lb_border_type
-      value: CURVED
-    - name: lb_brand_color
-      value: LBC_H
-    - name: hide_group_title
-      value: "false"
-    - name: hide_group_description
-      value: "false"
-    - name: hide_group_tile_description
-      value: "false"
-    - name: hide_tile_description
-      value: "false"
-    - name: kpi_hero_font_size
-      value: M
-    overrides:
-    - object_id: Viz_1
-      style_properties:
-      - name: tile_brand_color
-        value: TBC_M
-      - name: hide_tile_description
-        value: "false"
-      - name: kpi_hero_font_size
-        value: M
-      - name: is_linked
-        value: "false"
-    - object_id: Viz_4
-      style_properties:
-      - name: tile_brand_color
-        value: TBC_D
-      - name: hide_tile_description
-        value: "false"
-      - name: kpi_hero_font_size
-        value: M
-      - name: is_linked
-        value: "false"
-    - object_id: Viz_2
-      style_properties:
-      - name: is_highlighted
-        value: "true"
-      - name: is_linked
-        value: "true"
