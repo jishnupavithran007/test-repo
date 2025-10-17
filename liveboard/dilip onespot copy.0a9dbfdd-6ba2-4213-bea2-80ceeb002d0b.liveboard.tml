@@ -632,6 +632,19 @@ liveboard:
     viz_guid: 06ea2585-3622-470e-9fbe-057b8ddbe291
     note_tile:
       html_parsed_string: "<h1 class=\"theme-module__editor-h1-spaced\" dir=\"ltr\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">THOUGHTSPOT CONFIDENTIAL</span></h1><p class=\"theme-module__editor-paragraph-spaced\" dir=\"ltr\"><br></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: revert-layer;\"></div>"
+  groups:
+  - id: Group_1
+    name: Response time
+    visualizations:
+    - Viz_3
+    - Viz_4
+    group_guid: 4ad3e944-20f5-4c35-ba1b-47357dcfaf7c
+  - id: Group_2
+    name: NPS + CSAT
+    visualizations:
+    - Viz_1
+    - Viz_2
+    group_guid: 2651d65f-1c57-4cb4-b378-a9140f0ebb34
   layout:
     tabs:
     - name: Customer Health
@@ -639,52 +652,52 @@ liveboard:
       tiles:
       - visualization_id: Viz_5
         x: 0
-        "y": 17
+        "y": 6
         height: 8
         width: 6
       - visualization_id: Viz_6
         x: 6
-        "y": 9
+        "y": 6
         height: 8
         width: 6
       - visualization_id: Viz_7
         x: 0
-        "y": 25
+        "y": 14
         height: 8
         width: 12
       - visualization_id: Viz_8
         x: 0
-        "y": 33
+        "y": 22
         height: 5
         width: 6
       - visualization_id: Viz_9
         x: 6
-        "y": 33
+        "y": 22
         height: 9
         width: 6
       - visualization_id: Viz_10
         x: 0
-        "y": 38
+        "y": 27
         height: 4
         width: 3
       - visualization_id: Viz_11
         x: 3
-        "y": 38
+        "y": 27
         height: 4
         width: 3
       - visualization_id: Viz_12
         x: 0
-        "y": 42
+        "y": 31
         height: 8
         width: 6
       - visualization_id: Viz_13
         x: 6
-        "y": 42
+        "y": 31
         height: 8
         width: 6
       - visualization_id: Viz_14
         x: 0
-        "y": 50
+        "y": 39
         height: 8
         width: 12
       - visualization_id: Viz_15
@@ -692,27 +705,42 @@ liveboard:
         "y": 0
         height: 1
         width: 12
-      - visualization_id: Viz_3
-        x: 0
-        "y": 5
-        height: 8
-        width: 6
-      - visualization_id: Viz_4
+      - visualization_id: Group_1
         x: 6
         "y": 1
-        height: 8
-        width: 6
-      - visualization_id: Viz_1
-        x: 3
-        "y": 13
-        height: 4
-        width: 3
-      - visualization_id: Viz_2
+        height: 5
+        width: 12
+      - visualization_id: Group_2
         x: 0
         "y": 1
-        height: 4
-        width: 3
+        height: 5
+        width: 6
       id: 6c8dcb1c-9ddc-47cc-b02c-b39b145bc39a
+      group_layouts:
+      - id: Group_1
+        tiles:
+        - visualization_id: Viz_3
+          x: 0
+          "y": 0
+          height: 8
+          width: 6
+        - visualization_id: Viz_4
+          x: 6
+          "y": 0
+          height: 8
+          width: 6
+      - id: Group_2
+        tiles:
+        - visualization_id: Viz_1
+          x: 6
+          "y": 0
+          height: 8
+          width: 6
+        - visualization_id: Viz_2
+          x: 0
+          "y": 0
+          height: 8
+          width: 6
   style:
     style_properties:
     - name: lb_border_type
