@@ -1043,7 +1043,7 @@ liveboard:
     - name: lb_border_type
       value: CURVED
     - name: lb_brand_color
-      value: LBC_E
+      value: LBC_B
     - name: hide_group_title
       value: "false"
     - name: hide_group_description
