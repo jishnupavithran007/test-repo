@@ -35,7 +35,7 @@ liveboard:
           "y":
           - Total Discount
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"625022d7-649e-465e-b61f-de9a75f19f46\",\"columnProperty\": {}},{\"columnId\": \"b6d0f705-b17d-4357-a39a-cf7cad3f2694\",\"columnProperty\": {}},{\"columnId\": \"Part Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b4b425df-4926-4769-bc1a-4370f303feb1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"4814edee-5518-4634-9312-9f8267218e69\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Part Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Discount\",\"color\": \"#FCC838\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"6a274c5c-609f-4cf8-8b11-2840c82c8305\",\"columnProperty\": {}},{\"columnId\": \"08f6bb84-a61c-461d-818b-9c6472e82e4c\",\"columnProperty\": {}},{\"columnId\": \"Part Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b4b425df-4926-4769-bc1a-4370f303feb1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"4814edee-5518-4634-9312-9f8267218e69\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Part Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Discount\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: b09e64ed-9fe3-4b14-8df5-ce3a4f1c011c
   - id: Viz_2
@@ -45,33 +45,33 @@ liveboard:
       - id: Parameters Model
         name: Parameters Model
         fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
-      search_query: "[Quantity] [Line Number]"
+      search_query: "[Quantity] [Color]"
       answer_columns:
-      - name: Line Number
+      - name: Color
       - name: Total Quantity
       table:
         table_columns:
-        - column_id: Line Number
+        - column_id: Color
           headline_aggregation: COUNT_DISTINCT
         - column_id: Total Quantity
           headline_aggregation: SUM
         ordered_column_ids:
-        - Line Number
+        - Color
         - Total Quantity
         client_state: ""
         client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
       chart:
         type: COLUMN
         chart_columns:
-        - column_id: Line Number
+        - column_id: Color
         - column_id: Total Quantity
         axis_configs:
         - x:
-          - Line Number
+          - Color
           "y":
           - Total Quantity
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Line Number\",\"columnProperty\": {}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"38387627-5912-4ac7-a22a-407d4b37c4b4\",\"columnProperty\": {}},{\"columnId\": \"cb292802-f284-46bb-b2ed-eaaa442a707a\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"651f1858-ba44-4ce5-8feb-9ae8eac29b64\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"f9222046-2eb7-48f2-b26f-af44b4e4b0f6\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Line Number\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#FCC838\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"92221690-f68c-4486-aef4-02a2d8f2c175\",\"columnProperty\": {}},{\"columnId\": \"95e066d0-92d9-4a30-9f1f-2cfa49392d83\",\"columnProperty\": {}},{\"columnId\": \"Color\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e48b0e9d-e120-48a6-8ab8-34b7f9e104c2\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"91eff1bd-91ab-4630-ab44-7d65796d3e61\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: 4dd37c1a-c181-40fd-9878-b4d57cdcd7bd
   filters:
