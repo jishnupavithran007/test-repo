@@ -72,12 +72,11 @@ liveboard:
         - column_id: Total Quantity
         axis_configs:
         - x:
-          - Line Number
           - Color
           "y":
           - Total Quantity
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Line Number\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6b5b119e-eae5-4d7d-bae1-0d47d465470b\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"2e8fa9d3-deec-4de6-bf9f-eb3b4fa47c89\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Line Number\",\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#FCC838\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Line Number\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b9f581f8-0b34-4535-9db2-9c2784ce9806\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"dc7561ce-34e0-4b03-bac2-979c9958c873\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: 4dd37c1a-c181-40fd-9878-b4d57cdcd7bd
   filters:
