@@ -35,56 +35,9 @@ liveboard:
           "y":
           - Total Discount
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Part Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b4b425df-4926-4769-bc1a-4370f303feb1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"4814edee-5518-4634-9312-9f8267218e69\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Part Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Discount\",\"color\": \"#FCC838\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"fa5a86d4-ecb1-43ea-9450-74bb3becfc3d\",\"columnProperty\": {}},{\"columnId\": \"b239acd5-2073-4119-b5fd-cae948ba18cd\",\"columnProperty\": {}},{\"columnId\": \"Part Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b4b425df-4926-4769-bc1a-4370f303feb1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"4814edee-5518-4634-9312-9f8267218e69\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Part Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Discount\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: b09e64ed-9fe3-4b14-8df5-ce3a4f1c011c
-  - id: Viz_2
-    answer:
-      name: Total Quantity by Line Number
-      tables:
-      - id: Parameters Model
-        name: Parameters Model
-        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
-      search_query: "[Quantity] [Color]"
-      answer_columns:
-      - name: Color
-      - name: Total Quantity
-      table:
-        table_columns:
-        - column_id: Color
-          headline_aggregation: COUNT_DISTINCT
-        - column_id: Total Quantity
-          headline_aggregation: SUM
-        ordered_column_ids:
-        - Color
-        - Total Quantity
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: Color
-        - column_id: Total Quantity
-        axis_configs:
-        - x:
-          - Color
-          "y":
-          - Total Quantity
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Color\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e48b0e9d-e120-48a6-8ab8-34b7f9e104c2\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"91eff1bd-91ab-4630-ab44-7d65796d3e61\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#FCC838\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: 4dd37c1a-c181-40fd-9878-b4d57cdcd7bd
-  filters:
-  - column:
-    - Parameters Model::Part Name
-    is_mandatory: false
-    is_single_value: false
-    display_name: Part Name (Parameter Model)
-  - column:
-    - Parameters WS::Line Number
-    is_mandatory: false
-    is_single_value: false
-    display_name: Line Number (Parameter WS)
   layout:
     tiles:
     - visualization_id: Viz_1
@@ -92,13 +45,3 @@ liveboard:
       "y": 0
       height: 8
       width: 6
-    - visualization_id: Viz_2
-      x: 6
-      "y": 0
-      height: 8
-      width: 6
-  ordered_chips:
-  - name: Parameters Model::Part Name
-    type: FILTER
-  - name: Parameters WS::Line Number
-    type: FILTER
