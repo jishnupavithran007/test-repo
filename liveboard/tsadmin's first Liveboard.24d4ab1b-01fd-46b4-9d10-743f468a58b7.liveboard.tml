@@ -80,11 +80,6 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: Part Name (Parameter Model)
-  - column:
-    - Parameters WS::Line Number
-    is_mandatory: false
-    is_single_value: false
-    display_name: Line Number (Parameter WS)
   layout:
     tiles:
     - visualization_id: Viz_1
@@ -99,6 +94,4 @@ liveboard:
       width: 6
   ordered_chips:
   - name: Parameters Model::Part Name
-    type: FILTER
-  - name: Parameters WS::Line Number
     type: FILTER
