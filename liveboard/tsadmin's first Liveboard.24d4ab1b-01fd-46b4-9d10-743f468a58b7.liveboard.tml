@@ -45,7 +45,7 @@ liveboard:
       - id: Parameters Model
         name: Parameters Model
         fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
-      search_query: "[Quantity] [Color] [Line Number].1"
+      search_query: "[Quantity] [Color]"
       answer_columns:
       - name: Color
       - name: Total Quantity
