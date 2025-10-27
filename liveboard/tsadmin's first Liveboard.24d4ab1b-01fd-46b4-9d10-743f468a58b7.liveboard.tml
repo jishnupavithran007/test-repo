@@ -45,18 +45,22 @@ liveboard:
       - id: Parameters Model
         name: Parameters Model
         fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
-      search_query: "[Quantity] [Color]"
+      search_query: "[Quantity] [Color] [Line Number]"
       answer_columns:
       - name: Color
+      - name: Line Number
       - name: Total Quantity
       table:
         table_columns:
         - column_id: Color
           headline_aggregation: COUNT_DISTINCT
+        - column_id: Line Number
+          headline_aggregation: COUNT_DISTINCT
         - column_id: Total Quantity
           headline_aggregation: SUM
         ordered_column_ids:
         - Color
+        - Line Number
         - Total Quantity
         client_state: ""
         client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
@@ -64,6 +68,7 @@ liveboard:
         type: COLUMN
         chart_columns:
         - column_id: Color
+        - column_id: Line Number
         - column_id: Total Quantity
         axis_configs:
         - x:
