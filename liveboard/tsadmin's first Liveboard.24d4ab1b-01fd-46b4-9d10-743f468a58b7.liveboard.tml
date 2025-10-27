@@ -45,33 +45,33 @@ liveboard:
       - id: Parameters Model
         name: Parameters Model
         fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
-      search_query: "[Quantity] [Line Number]"
+      search_query: "[Quantity] [Color]"
       answer_columns:
-      - name: Line Number
+      - name: Color
       - name: Total Quantity
       table:
         table_columns:
-        - column_id: Line Number
+        - column_id: Color
           headline_aggregation: COUNT_DISTINCT
         - column_id: Total Quantity
           headline_aggregation: SUM
         ordered_column_ids:
-        - Line Number
+        - Color
         - Total Quantity
         client_state: ""
         client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
       chart:
         type: COLUMN
         chart_columns:
-        - column_id: Line Number
+        - column_id: Color
         - column_id: Total Quantity
         axis_configs:
         - x:
-          - Line Number
+          - Color
           "y":
           - Total Quantity
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Line Number\",\"columnProperty\": {}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"651f1858-ba44-4ce5-8feb-9ae8eac29b64\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"f9222046-2eb7-48f2-b26f-af44b4e4b0f6\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Line Number\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#FCC838\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Color\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e48b0e9d-e120-48a6-8ab8-34b7f9e104c2\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"91eff1bd-91ab-4630-ab44-7d65796d3e61\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Quantity\",\"color\": \"#FCC838\"}]}"
       display_mode: CHART_MODE
     viz_guid: 4dd37c1a-c181-40fd-9878-b4d57cdcd7bd
   filters:
