@@ -119,6 +119,42 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"Seller\",\"columnProperty\": {}},{\"columnId\": \"Total Sellingprice\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cb7cb164-63b5-4171-950e-df5ab2eb9c83\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Sellingprice\"],\"isOpposite\": false}},{\"id\": \"6f12d735-9e8f-4a68-8d70-b9460cd95202\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Seller\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Sellingprice\",\"color\": \"#06BF7F\"}]}"
       display_mode: TABLE_MODE
     viz_guid: 3456e5ae-dbcb-4d6b-ae88-7be56a758406
+  - id: Viz_4
+    answer:
+      name: Total Condition by Color
+      tables:
+      - id: Car Sales with CSR Column
+        name: Car Sales with CSR Column
+        fqn: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
+      search_query: "[Condition] [Color]"
+      answer_columns:
+      - name: Color
+      - name: Total Condition
+      table:
+        table_columns:
+        - column_id: Color
+          show_headline: false
+        - column_id: Total Condition
+          show_headline: false
+        ordered_column_ids:
+        - Color
+        - Total Condition
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Color
+        - column_id: Total Condition
+        axis_configs:
+        - x:
+          - Color
+          "y":
+          - Total Condition
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Total Condition\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"c7a220e5-2631-44bc-9d5d-4190fe40ee6f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Condition\"],\"isOpposite\": false}},{\"id\": \"92b1c1a4-6878-4d41-b430-974cdbf07618\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Condition\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 1d5cc7a0-6679-41cd-99b9-2eebd59fa8a3
   filters:
   - column:
     - Car Sales No CSR Column::Body
@@ -159,6 +195,7 @@ liveboard:
       "y": 16
       height: 8
       width: 12
+    - visualization_id: Viz_4
   ordered_chips:
   - name: Car Sales No CSR Column::Body
     type: FILTER
