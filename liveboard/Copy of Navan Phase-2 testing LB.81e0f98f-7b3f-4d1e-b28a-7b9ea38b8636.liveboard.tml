@@ -137,6 +137,11 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: Formula column (Accessible)
+  - column:
+    - Car Sales with CSR Column::Color
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
@@ -159,6 +164,8 @@ liveboard:
     type: FILTER
   - name: Car Sales No CSR Column::Formula column
     type: FILTER
+  - name: Car Sales with CSR Column::Color
+    type: FILTER
   views:
   - view_guid: 1c61ae12-14b5-4572-ab01-ddb5f6d531b6
     name: v1
@@ -168,6 +175,9 @@ liveboard:
       oper: in
     - column:
       - Car Sales No CSR Column::Formula column
+      oper: in
+    - column:
+      - Car Sales with CSR Column::Color
       oper: in
     is_public: true
   style:
