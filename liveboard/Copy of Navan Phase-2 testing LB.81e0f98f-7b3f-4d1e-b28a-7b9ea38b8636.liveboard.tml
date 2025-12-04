@@ -5,85 +5,6 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: Total Condition by Color
-      description: Inaccessible VIZ (Color column is CSR protected)
-      tables:
-      - id: Car Sales with CSR Column
-        name: Car Sales with CSR Column
-        fqn: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
-      search_query: "[Condition] [Color] [Saledate Random] [Saledate Random].monthly"
-      answer_columns:
-      - name: Color
-      - name: Month(Saledate Random)
-      - name: Total Condition
-      table:
-        table_columns:
-        - column_id: Color
-          show_headline: false
-        - column_id: Month(Saledate Random)
-          show_headline: false
-        - column_id: Total Condition
-          show_headline: false
-        ordered_column_ids:
-        - Color
-        - Month(Saledate Random)
-        - Total Condition
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
-      chart:
-        type: KPI
-        chart_columns:
-        - column_id: Color
-        - column_id: Month(Saledate Random)
-        - column_id: Total Condition
-        axis_configs:
-        - x:
-          - Month(Saledate Random)
-          "y":
-          - Total Condition
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Total Condition\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Month(Saledate Random)\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"afe68047-11a6-48a8-a0c7-20144ff2c4e5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Condition\"],\"isOpposite\": false}},{\"id\": \"0f9af9dc-ecaa-412c-ad47-1eace4f6967b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Saledate Random)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Condition\",\"color\": \"#8C62F5\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: 6934eb83-5ae2-49b1-b0cc-b33dd9bcc670
-  - id: Viz_2
-    answer:
-      name: Total Condition by Color
-      description: Inaccessible VIZ (Color column is CSR protected)
-      tables:
-      - id: Car Sales with CSR Column
-        name: Car Sales with CSR Column
-        fqn: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
-      search_query: "[Condition] [Color]"
-      answer_columns:
-      - name: Color
-      - name: Total Condition
-      table:
-        table_columns:
-        - column_id: Color
-          show_headline: false
-        - column_id: Total Condition
-          show_headline: false
-        ordered_column_ids:
-        - Color
-        - Total Condition
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: Color
-        - column_id: Total Condition
-        axis_configs:
-        - x:
-          - Color
-          "y":
-          - Total Condition
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Total Condition\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1fb57905-f0fc-47d1-bd74-acffa33f2f2c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Condition\"],\"isOpposite\": false}},{\"id\": \"16225ef9-0bfb-4fec-9aab-86683564b9aa\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Condition\",\"color\": \"#8C62F5\"}]}"
-      display_mode: TABLE_MODE
-    viz_guid: eaaa3659-d14c-4185-8fa2-fb4530ebfaac
-  - id: Viz_3
-    answer:
       name: Total Odometer by State
       description: Accessible VIZ
       tables:
@@ -124,7 +45,7 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"State\",\"columnProperty\": {}},{\"columnId\": \"Total Odometer\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Month(Saledate Random)\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"696e7bf3-04c8-4113-9a70-5ae7e2c32e6e\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Odometer\"],\"isOpposite\": false}},{\"id\": \"693a3e89-1ff9-4044-b646-793658cdfed2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Saledate Random)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Odometer\",\"color\": \"#FF8142\"}]}"
       display_mode: CHART_MODE
     viz_guid: e586a8bd-5590-443f-82b5-f4a05a2f46c0
-  - id: Viz_4
+  - id: Viz_2
     answer:
       name: Total Odometer by State
       description: Accessible VIZ
@@ -161,44 +82,7 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"State\",\"columnProperty\": {}},{\"columnId\": \"Total Odometer\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"11d4b881-455f-44d5-937b-e421b0d80388\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Odometer\"],\"isOpposite\": false}},{\"id\": \"3a584e1e-8387-4d9e-a8f6-bbae71f54473\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"State\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Odometer\",\"color\": \"#8C62F5\"}]}"
       display_mode: TABLE_MODE
     viz_guid: 69b3be0f-a88d-4808-91fe-e046bbb0509b
-  - id: Viz_5
-    answer:
-      name: Total Sellingprice by Seller
-      description: Accessible VIZ (Inaccessible filter column is applying)
-      tables:
-      - id: Car Sales with CSR Column
-        name: Car Sales with CSR Column
-        fqn: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
-      search_query: "[Sellingprice] [Seller]"
-      answer_columns:
-      - name: Seller
-      - name: Total Sellingprice
-      table:
-        table_columns:
-        - column_id: Seller
-          show_headline: false
-        - column_id: Total Sellingprice
-          show_headline: false
-        ordered_column_ids:
-        - Seller
-        - Total Sellingprice
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: Seller
-        - column_id: Total Sellingprice
-        axis_configs:
-        - x:
-          - Seller
-          "y":
-          - Total Sellingprice
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"Seller\",\"columnProperty\": {}},{\"columnId\": \"Total Sellingprice\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cb7cb164-63b5-4171-950e-df5ab2eb9c83\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Sellingprice\"],\"isOpposite\": false}},{\"id\": \"6f12d735-9e8f-4a68-8d70-b9460cd95202\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Seller\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Sellingprice\",\"color\": \"#06BF7F\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: 09e0b2e0-30c7-4d04-bbbe-7448a2621420
-  - id: Viz_6
+  - id: Viz_3
     answer:
       name: Total Sellingprice by Seller
       description: Accessible VIZ (Inaccessible filter column is applying)
@@ -235,174 +119,28 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"Seller\",\"columnProperty\": {}},{\"columnId\": \"Total Sellingprice\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cb7cb164-63b5-4171-950e-df5ab2eb9c83\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Sellingprice\"],\"isOpposite\": false}},{\"id\": \"6f12d735-9e8f-4a68-8d70-b9460cd95202\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Seller\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Sellingprice\",\"color\": \"#06BF7F\"}]}"
       display_mode: TABLE_MODE
     viz_guid: 3456e5ae-dbcb-4d6b-ae88-7be56a758406
-  - id: Viz_7
-    answer:
-      name: Total Condition
-      description: KPI chart Inaccessible filter column is present
-      tables:
-      - id: Car Sales with CSR Column
-        name: Car Sales with CSR Column
-        fqn: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
-      search_query: "[Condition] [Make] [Color].15719 [Color].16633 [Color].18384 [Color].18561"
-      answer_columns:
-      - name: Make
-      - name: Total Condition
-      table:
-        table_columns:
-        - column_id: Make
-          show_headline: false
-        - column_id: Total Condition
-          show_headline: false
-        ordered_column_ids:
-        - Make
-        - Total Condition
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
-      chart:
-        type: KPI
-        chart_columns:
-        - column_id: Make
-        - column_id: Total Condition
-        axis_configs:
-        - "y":
-          - Total Condition
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}},\"columnProperties\": [{\"columnId\": \"Make\",\"columnProperty\": {}},{\"columnId\": \"Total Condition\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a01f6ef2-82c8-4b0d-9de6-4b198e10c81a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Condition\"],\"isOpposite\": false}},{\"id\": \"e9e35a46-4bab-4526-aa1b-d8e3fb292a6b\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Condition\",\"color\": \"#747E8C\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: c3829e38-972f-4780-9fc9-83db04a30fcb
-  - id: Viz_8
-    answer:
-      name: "Total Mmr, Total Odometer, Total akshay test by Formula CSR Column"
-      tables:
-      - id: Car Sales with CSR Column
-        name: Car Sales with CSR Column
-        fqn: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
-      formulas:
-      - id: formula_akshay test
-        name: akshay test
-        expr: "[Odometer] + [Integer Param CSR WS] "
-        was_auto_generated: false
-      search_query: "[Mmr] [Odometer] [Formula CSR Column] [formula_akshay test]"
-      answer_columns:
-      - name: Formula CSR Column
-      - name: Total Mmr
-      - name: Total Odometer
-      - name: Total akshay test
-      table:
-        table_columns:
-        - column_id: Formula CSR Column
-          show_headline: false
-        - column_id: Total Mmr
-          show_headline: false
-        - column_id: Total Odometer
-          show_headline: false
-        - column_id: Total akshay test
-          show_headline: false
-        ordered_column_ids:
-        - Formula CSR Column
-        - Total Mmr
-        - Total Odometer
-        - Total akshay test
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Formula CSR Column\",\"columnProperty\": {}},{\"columnId\": \"Total Mmr\",\"columnProperty\": {}},{\"columnId\": \"Total Odometer\",\"columnProperty\": {}},{\"columnId\": \"Total akshay test\",\"columnProperty\": {}}]}"
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: Formula CSR Column
-        - column_id: Total Mmr
-        - column_id: Total Odometer
-        - column_id: Total akshay test
-        axis_configs:
-        - x:
-          - Formula CSR Column
-          "y":
-          - Total Mmr
-          - Total Odometer
-          - Total akshay test
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Formula CSR Column\",\"columnProperty\": {}},{\"columnId\": \"Total Mmr\",\"columnProperty\": {}},{\"columnId\": \"Total Odometer\",\"columnProperty\": {}},{\"columnId\": \"Total akshay test\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"c4f551fc-e296-4527-b59b-49ee730e83f9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Mmr\"],\"isOpposite\": false}},{\"id\": \"656b9cd9-3c06-4bca-91f8-e275a6914d31\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Odometer\"],\"isOpposite\": true}},{\"id\": \"7242cc11-85dd-4d83-a63e-db0b7b5655c5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total akshay test\"],\"isOpposite\": true}},{\"id\": \"51412a6b-e98e-4e53-9fb1-61187845b573\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Formula CSR Column\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Mmr\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Odometer\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total akshay test\",\"color\": \"#2E75F0\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: bfaf0d0e-0be8-419a-bf44-d3ed3ecfb021
-  - id: Viz_9
-    answer:
-      name: "Total Mmr, Total Odometer, Total akshay test by Formula CSR Column"
-      tables:
-      - id: Car Sales with CSR Column
-        name: Car Sales with CSR Column
-        fqn: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
-      formulas:
-      - id: formula_akshay test
-        name: akshay test
-        expr: "[Odometer] + [Integer Param CSR WS] "
-        was_auto_generated: false
-      search_query: "[Mmr] [Odometer] [Formula CSR Column] [formula_akshay test]"
-      answer_columns:
-      - name: Formula CSR Column
-      - name: Total Mmr
-      - name: Total Odometer
-      - name: Total akshay test
-      table:
-        table_columns:
-        - column_id: Formula CSR Column
-          show_headline: false
-        - column_id: Total Mmr
-          show_headline: false
-        - column_id: Total Odometer
-          show_headline: false
-        - column_id: Total akshay test
-          show_headline: false
-        ordered_column_ids:
-        - Formula CSR Column
-        - Total Mmr
-        - Total Odometer
-        - Total akshay test
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Formula CSR Column\",\"columnProperty\": {}},{\"columnId\": \"Total Mmr\",\"columnProperty\": {}},{\"columnId\": \"Total Odometer\",\"columnProperty\": {}},{\"columnId\": \"Total akshay test\",\"columnProperty\": {}}]}"
-      chart:
-        type: COLUMN
-        chart_columns:
-        - column_id: Formula CSR Column
-        - column_id: Total Mmr
-        - column_id: Total Odometer
-        - column_id: Total akshay test
-        axis_configs:
-        - x:
-          - Formula CSR Column
-          "y":
-          - Total Mmr
-          - Total Odometer
-          - Total akshay test
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Formula CSR Column\",\"columnProperty\": {}},{\"columnId\": \"Total Mmr\",\"columnProperty\": {}},{\"columnId\": \"Total Odometer\",\"columnProperty\": {}},{\"columnId\": \"Total akshay test\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"c4f551fc-e296-4527-b59b-49ee730e83f9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Mmr\"],\"isOpposite\": false}},{\"id\": \"656b9cd9-3c06-4bca-91f8-e275a6914d31\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Odometer\"],\"isOpposite\": true}},{\"id\": \"7242cc11-85dd-4d83-a63e-db0b7b5655c5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total akshay test\"],\"isOpposite\": true}},{\"id\": \"51412a6b-e98e-4e53-9fb1-61187845b573\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Formula CSR Column\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Mmr\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Odometer\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total akshay test\",\"color\": \"#2E75F0\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: 7cdc6453-67ba-45e6-9a58-80ab24f2c413
   filters:
   - column:
     - Car Sales No CSR Column::Body
     - Car Sales with CSR Column::Model
     excluded_visualizations:
     - Viz_1
-    - Viz_3
     - Viz_2
-    - Viz_4
-    - Viz_5
-    - Viz_6
-    - Viz_7
-    - Viz_8
+    - Viz_3
     is_mandatory: false
     is_single_value: false
     display_name: Body (Secondary CSR Protected primary not)
   - column:
     - Car Sales No CSR Column::Formula column
     excluded_visualizations:
-    - Viz_4
+    - Viz_2
     is_mandatory: false
     is_single_value: false
     display_name: Formula column (Accessible)
   layout:
     tiles:
     - visualization_id: Viz_1
-      x: 0
+      x: 6
       "y": 0
       height: 8
       width: 6
@@ -412,51 +150,15 @@ liveboard:
       height: 8
       width: 12
     - visualization_id: Viz_3
-      x: 6
-      "y": 0
-      height: 8
-      width: 6
-    - visualization_id: Viz_4
       x: 0
       "y": 16
       height: 8
       width: 12
-    - visualization_id: Viz_5
-      x: 0
-      "y": 24
-      height: 8
-      width: 6
-    - visualization_id: Viz_6
-      x: 0
-      "y": 32
-      height: 8
-      width: 12
-    - visualization_id: Viz_7
-      x: 0
-      "y": 40
-      height: 2
-      width: 3
-    - visualization_id: Viz_8
-      x: 3
-      "y": 40
-      height: 8
-      width: 6
-    - visualization_id: Viz_9
-      x: 0
-      "y": 48
-      height: 8
-      width: 6
-  parameter_overrides:
-  - key: 375ed8e6-1caa-442c-8b3c-52dfd6551422
-    value:
-      name: Car Sales with CSR Column::Integer Param CSR WS
   ordered_chips:
   - name: Car Sales No CSR Column::Body
     type: FILTER
   - name: Car Sales No CSR Column::Formula column
     type: FILTER
-  - name: Car Sales with CSR Column::Integer Param CSR WS
-    type: PARAMETER
   views:
   - view_guid: 1c61ae12-14b5-4572-ab01-ddb5f6d531b6
     name: v1
@@ -468,9 +170,6 @@ liveboard:
       - Car Sales No CSR Column::Formula column
       oper: in
     is_public: true
-    view_parameters:
-    - name: Integer Param CSR WS
-      id: 375ed8e6-1caa-442c-8b3c-52dfd6551422
   style:
     style_properties:
     - name: lb_border_type
