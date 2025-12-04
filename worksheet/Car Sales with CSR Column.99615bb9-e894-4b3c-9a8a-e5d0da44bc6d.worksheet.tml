@@ -1,0 +1,107 @@
+guid: 99615bb9-e894-4b3c-9a8a-e5d0da44bc6d
+model:
+  name: Car Sales with CSR Column
+  description: THis WS contains CSR protected columns
+  model_tables:
+  - name: CAR_PRICES_DEMO
+    fqn: 56c39c05-d820-4352-b746-8d3e3aad20e2
+  formulas:
+  - id: formula_Formula CSR Column
+    name: Formula CSR Column
+    expr: 'if ( [Integer Param CSR WS] = 1 ) then [CAR_PRICES_DEMO::BODY] else [CAR_PRICES_DEMO::COLOR] '
+  columns:
+  - name: Body
+    column_id: CAR_PRICES_DEMO::BODY
+    properties:
+      column_type: ATTRIBUTE
+  - name: Color
+    column_id: CAR_PRICES_DEMO::COLOR
+    properties:
+      column_type: ATTRIBUTE
+  - name: Condition
+    column_id: CAR_PRICES_DEMO::CONDITION
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Interior
+    column_id: CAR_PRICES_DEMO::INTERIOR
+    properties:
+      column_type: ATTRIBUTE
+  - name: Make
+    column_id: CAR_PRICES_DEMO::MAKE
+    properties:
+      column_type: ATTRIBUTE
+  - name: Mmr
+    column_id: CAR_PRICES_DEMO::MMR
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Model
+    column_id: CAR_PRICES_DEMO::MODEL
+    properties:
+      column_type: ATTRIBUTE
+  - name: Odometer
+    column_id: CAR_PRICES_DEMO::ODOMETER
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Saledate
+    column_id: CAR_PRICES_DEMO::SALEDATE
+    properties:
+      column_type: ATTRIBUTE
+  - name: Saledate Random
+    column_id: CAR_PRICES_DEMO::SALEDATE_RANDOM
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  - name: Seller
+    column_id: CAR_PRICES_DEMO::SELLER
+    properties:
+      column_type: ATTRIBUTE
+  - name: Sellingprice
+    column_id: CAR_PRICES_DEMO::SELLINGPRICE
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: State
+    column_id: CAR_PRICES_DEMO::STATE
+    properties:
+      column_type: ATTRIBUTE
+  - name: Transmission
+    column_id: CAR_PRICES_DEMO::TRANSMISSION
+    properties:
+      column_type: ATTRIBUTE
+  - name: Trim
+    column_id: CAR_PRICES_DEMO::TRIM
+    properties:
+      column_type: ATTRIBUTE
+  - name: Vin
+    column_id: CAR_PRICES_DEMO::VIN
+    properties:
+      column_type: ATTRIBUTE
+  - name: Year
+    column_id: CAR_PRICES_DEMO::YEAR
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Formula CSR Column
+    formula_id: formula_Formula CSR Column
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  properties:
+    is_bypass_rls: false
+    join_progressive: true
+    spotter_config:
+      is_spotter_enabled: false
+  parameters:
+  - id: 375ed8e6-1caa-442c-8b3c-52dfd6551422
+    name: Integer Param CSR WS
+    data_type: INT64
+    default_value: '1'
+    description: ''
