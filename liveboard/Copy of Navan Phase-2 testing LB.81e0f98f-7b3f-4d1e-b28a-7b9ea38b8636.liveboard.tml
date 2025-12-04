@@ -378,18 +378,6 @@ liveboard:
     viz_guid: 7cdc6453-67ba-45e6-9a58-80ab24f2c413
   filters:
   - column:
-    - Car Sales with CSR Column::Color
-    - Car Sales No CSR Column::Vin
-    oper: in
-    values:
-    - "1167"
-    - "12655"
-    - "14872"
-    - "15719"
-    is_mandatory: false
-    is_single_value: false
-    display_name: Color (Primary CSR protected secondary not)
-  - column:
     - Car Sales No CSR Column::Body
     - Car Sales with CSR Column::Model
     is_mandatory: false
@@ -400,11 +388,6 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: Formula column (Accessible)
-  - column:
-    - Car Sales with CSR Column::Formula CSR Column
-    is_mandatory: false
-    is_single_value: false
-    display_name: Formula CSR Column (Color is CSR inaccessible)
   layout:
     tiles:
     - visualization_id: Viz_1
@@ -457,13 +440,9 @@ liveboard:
     value:
       name: Car Sales with CSR Column::Integer Param CSR WS
   ordered_chips:
-  - name: Car Sales with CSR Column::Color
-    type: FILTER
   - name: Car Sales No CSR Column::Body
     type: FILTER
   - name: Car Sales No CSR Column::Formula column
-    type: FILTER
-  - name: Car Sales with CSR Column::Formula CSR Column
     type: FILTER
   - name: Car Sales with CSR Column::Integer Param CSR WS
     type: PARAMETER
@@ -472,16 +451,10 @@ liveboard:
     name: v1
     view_filters:
     - column:
-      - Car Sales with CSR Column::Color
-      oper: in
-    - column:
       - Car Sales No CSR Column::Body
       oper: in
     - column:
       - Car Sales No CSR Column::Formula column
-      oper: in
-    - column:
-      - Car Sales with CSR Column::Formula CSR Column
       oper: in
     is_public: true
     view_parameters:
