@@ -476,6 +476,10 @@ liveboard:
     - column:
       - Car Sales No CSR Column::Body
       oper: in
+      values:
+      - Convertible
+      - Cab
+      - Coupe
     - column:
       - Car Sales No CSR Column::Formula column
       oper: in
