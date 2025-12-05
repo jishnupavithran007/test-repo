@@ -391,7 +391,7 @@ liveboard:
     display_name: Color (Primary CSR protected secondary not)
   - column:
     - Car Sales No CSR Column::Body
-    - Car Sales with CSR Column::Model
+    - Car Sales with CSR Column::Body
     is_mandatory: false
     is_single_value: false
     display_name: Body (Secondary CSR Protected primary not)
