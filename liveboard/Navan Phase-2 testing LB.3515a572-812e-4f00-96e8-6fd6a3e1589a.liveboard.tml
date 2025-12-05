@@ -379,7 +379,6 @@ liveboard:
   filters:
   - column:
     - Car Sales with CSR Column::Color
-    - Car Sales No CSR Column::Vin
     oper: in
     values:
     - "1167"
