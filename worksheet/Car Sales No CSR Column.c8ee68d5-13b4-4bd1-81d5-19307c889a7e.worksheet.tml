@@ -14,6 +14,11 @@ model:
     column_id: CAR_PRICES_DEMO::BODY
     properties:
       column_type: ATTRIBUTE
+  - name: Formula column
+    formula_id: formula_Formula column
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
   - name: Condition
     column_id: CAR_PRICES_DEMO::CONDITION
     properties:
@@ -80,11 +85,6 @@ model:
     properties:
       column_type: MEASURE
       aggregation: SUM
-      index_type: DONT_INDEX
-  - name: Formula column
-    formula_id: formula_Formula column
-    properties:
-      column_type: ATTRIBUTE
       index_type: DONT_INDEX
   properties:
     is_bypass_rls: false
