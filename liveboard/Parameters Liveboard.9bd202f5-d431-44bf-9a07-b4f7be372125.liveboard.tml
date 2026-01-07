@@ -209,7 +209,7 @@ liveboard:
   - key: 6afe392d-d188-4379-aef3-1a8632e147c8
     value:
       name: Parameters WS::Integer Range Param
-      override_value: "10"
+      override_value: "1"
   ordered_chips:
   - name: Parameters WS::Date List Param
     type: PARAMETER
