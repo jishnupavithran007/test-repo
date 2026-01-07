@@ -4,7 +4,7 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: Total Partial Revenue
+      name: Total Partial Revenue @Integer Param
       tables:
       - id: Parameters WS
         name: Parameters WS
@@ -28,6 +28,7 @@ liveboard:
         ordered_column_ids:
         - Total Partial Revenue
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Partial Revenue\",\"columnProperty\": {}}]}"
       chart:
         type: KPI
         chart_columns:
@@ -36,7 +37,9 @@ liveboard:
         - "y":
           - Total Partial Revenue
         client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cfad9b21-2119-453f-b1c4-22d153f5642a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Revenue\"],\"isOpposite\": false}},{\"id\": \"a39b3d2d-0881-4e61-a4f4-81c44dfd34b4\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: CHART_MODE
+      dynamic_name: "Total Partial Revenue [${PARAMETER:Integer Param}]"
     viz_guid: db0badd5-47c6-400a-842d-133a7b44d435
   - id: Viz_2
     answer:
@@ -206,14 +209,19 @@ liveboard:
     value:
       name: Parameters WS::Date List Param
       override_value: 07/04/2022
+  - key: db95c261-9e31-41fc-b9d9-4059062fc26f
+    value:
+      name: Parameters WS::Integer Param
   - key: 6afe392d-d188-4379-aef3-1a8632e147c8
     value:
       name: Parameters WS::Integer Range Param
-      override_value: "10"
+      override_value: "1"
   ordered_chips:
   - name: Parameters WS::Date List Param
     type: PARAMETER
   - name: Parameters WS::Integer Range Param
+    type: PARAMETER
+  - name: Parameters WS::Integer Param
     type: PARAMETER
   style:
     style_properties:
