@@ -173,27 +173,34 @@ liveboard:
       display_mode: CHART_MODE
     viz_guid: 754977f5-177a-492b-b79a-b703e33db9ef
   layout:
-    tiles:
-    - visualization_id: Viz_1
-      x: 0
-      "y": 0
-      height: 2
-      width: 3
-    - visualization_id: Viz_2
-      x: 3
-      "y": 0
-      height: 2
-      width: 3
-    - visualization_id: Viz_3
-      x: 0
-      "y": 2
-      height: 8
-      width: 6
-    - visualization_id: Viz_4
-      x: 6
-      "y": 0
-      height: 8
-      width: 6
+    tabs:
+    - name: T1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 2
+        width: 3
+      - visualization_id: Viz_2
+        x: 3
+        "y": 0
+        height: 2
+        width: 3
+      - visualization_id: Viz_3
+        x: 0
+        "y": 2
+        height: 8
+        width: 6
+      - visualization_id: Viz_4
+        x: 6
+        "y": 0
+        height: 8
+        width: 6
+      id: c9206b06-4023-4b29-913e-c0438c334003
+    - name: T2
+      description: ""
+      id: 0c94d9e7-ac26-48e7-8ee2-a3deface112f
   parameter_overrides:
   - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
     value:
