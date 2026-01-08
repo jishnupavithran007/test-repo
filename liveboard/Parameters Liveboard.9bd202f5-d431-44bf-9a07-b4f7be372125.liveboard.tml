@@ -205,9 +205,6 @@ liveboard:
         height: 8
         width: 6
       id: c9206b06-4023-4b29-913e-c0438c334003
-    - name: T2
-      description: ""
-      id: 0c94d9e7-ac26-48e7-8ee2-a3deface112f
   parameter_overrides:
   - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
     value:
