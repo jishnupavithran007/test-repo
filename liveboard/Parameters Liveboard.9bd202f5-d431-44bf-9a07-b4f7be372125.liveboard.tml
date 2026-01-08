@@ -5,6 +5,7 @@ liveboard:
   - id: Viz_1
     answer:
       name: Total Partial Revenue @Integer Param
+      description: '@Date Param'
       tables:
       - id: Parameters WS
         name: Parameters WS
@@ -40,6 +41,7 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cfad9b21-2119-453f-b1c4-22d153f5642a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Revenue\"],\"isOpposite\": false}},{\"id\": \"a39b3d2d-0881-4e61-a4f4-81c44dfd34b4\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: CHART_MODE
       dynamic_name: "Total Partial Revenue [${PARAMETER:Integer Param}]"
+      dynamic_description: "[${PARAMETER:Date Param}]"
     viz_guid: db0badd5-47c6-400a-842d-133a7b44d435
   - id: Viz_2
     answer:
@@ -212,6 +214,9 @@ liveboard:
   - key: db95c261-9e31-41fc-b9d9-4059062fc26f
     value:
       name: Parameters WS::Integer Param
+  - key: 94af5fac-3afb-4781-aca1-a5ca97094661
+    value:
+      name: Parameters WS::Date Param
   - key: 6afe392d-d188-4379-aef3-1a8632e147c8
     value:
       name: Parameters WS::Integer Range Param
@@ -222,6 +227,8 @@ liveboard:
   - name: Parameters WS::Integer Range Param
     type: PARAMETER
   - name: Parameters WS::Integer Param
+    type: PARAMETER
+  - name: Parameters WS::Date Param
     type: PARAMETER
   style:
     style_properties:
