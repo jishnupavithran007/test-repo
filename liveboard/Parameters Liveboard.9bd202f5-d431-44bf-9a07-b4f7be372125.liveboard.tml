@@ -38,7 +38,7 @@ liveboard:
         - "y":
           - Total Partial Revenue
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cfad9b21-2119-453f-b1c4-22d153f5642a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Revenue\"],\"isOpposite\": false}},{\"id\": \"a39b3d2d-0881-4e61-a4f4-81c44dfd34b4\",\"properties\": {\"axisType\": \"X\"}}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Revenue\",\"columnProperty\": {}},{\"columnId\": \"70d067f1-43ea-41b5-aef2-6cf6c5138cb2\",\"columnProperty\": {}},{\"columnId\": \"e0058f92-4b8f-4a72-9b17-0e3e8730e1e6\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cfad9b21-2119-453f-b1c4-22d153f5642a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Revenue\"],\"isOpposite\": false}},{\"id\": \"a39b3d2d-0881-4e61-a4f4-81c44dfd34b4\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: CHART_MODE
       dynamic_name: "Total Partial Revenue [${PARAMETER:Integer Param}]"
       dynamic_description: "[${PARAMETER:Date Param}]"
@@ -73,6 +73,7 @@ liveboard:
         ordered_column_ids:
         - Total Partial Quantity
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Partial Quantity\",\"columnProperty\": {}}]}"
       chart:
         type: KPI
         chart_columns:
@@ -81,6 +82,7 @@ liveboard:
         - "y":
           - Total Partial Quantity
         client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Quantity\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"9fb2f5c3-97c8-4748-a1d0-c6c798f38db9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Quantity\"],\"isOpposite\": false}},{\"id\": \"f74486ce-ff4f-4da0-a701-b60ba290b9ef\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: CHART_MODE
     viz_guid: 43c9f421-410f-4564-b624-2b3acc4ea8cd
   - id: Viz_3
