@@ -1,0 +1,48 @@
+guid: aa3ed138-8a9f-470a-9302-5a0622f4ad8b
+liveboard:
+  name: tsadmin's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total F discount
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      formulas:
+      - id: formula_F discount
+        name: F discount
+        expr: "[Discount] * [Integer Param] "
+        was_auto_generated: false
+      search_query: "[formula_F discount]"
+      answer_columns:
+      - name: Total F discount
+      table:
+        table_columns:
+        - column_id: Total F discount
+          headline_aggregation: TABLE_AGGR
+        ordered_column_ids:
+        - Total F discount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total F discount\",\"columnProperty\": {}}]}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total F discount
+        axis_configs:
+        - "y":
+          - Total F discount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total F discount\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"89611fd5-8ae1-4ae5-9f02-952f282a51ec\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total F discount\"],\"isOpposite\": false}},{\"id\": \"d7812fef-10cf-48f1-a7b2-960693eb21d2\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: CHART_MODE
+    viz_guid: 2879b8ec-25b8-480a-be08-736e960c040b
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+  parameter_overrides:
+  - key: 96a2f556-1d27-446d-9db4-1fa915b04646
+    value:
+      name: Parameters Model::Integer Param
+  ordered_chips:
+  - name: Parameters Model::Integer Param
+    type: PARAMETER
