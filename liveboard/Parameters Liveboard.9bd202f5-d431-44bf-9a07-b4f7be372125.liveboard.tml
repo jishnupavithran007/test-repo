@@ -4,8 +4,7 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: Total Partial Revenue @Integer Param
-      description: '@Date Param'
+      name: Total Partial Revenue
       tables:
       - id: Parameters WS
         name: Parameters WS
@@ -29,7 +28,6 @@ liveboard:
         ordered_column_ids:
         - Total Partial Revenue
         client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Partial Revenue\",\"columnProperty\": {}}]}"
       chart:
         type: KPI
         chart_columns:
@@ -38,10 +36,7 @@ liveboard:
         - "y":
           - Total Partial Revenue
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Revenue\",\"columnProperty\": {}},{\"columnId\": \"70d067f1-43ea-41b5-aef2-6cf6c5138cb2\",\"columnProperty\": {}},{\"columnId\": \"e0058f92-4b8f-4a72-9b17-0e3e8730e1e6\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"cfad9b21-2119-453f-b1c4-22d153f5642a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Revenue\"],\"isOpposite\": false}},{\"id\": \"a39b3d2d-0881-4e61-a4f4-81c44dfd34b4\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: CHART_MODE
-      dynamic_name: "Total Partial Revenue [${PARAMETER:Integer Param}]"
-      dynamic_description: "[${PARAMETER:Date Param}]"
     viz_guid: db0badd5-47c6-400a-842d-133a7b44d435
   - id: Viz_2
     answer:
@@ -73,7 +68,6 @@ liveboard:
         ordered_column_ids:
         - Total Partial Quantity
         client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Partial Quantity\",\"columnProperty\": {}}]}"
       chart:
         type: KPI
         chart_columns:
@@ -82,7 +76,6 @@ liveboard:
         - "y":
           - Total Partial Quantity
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Quantity\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"9fb2f5c3-97c8-4748-a1d0-c6c798f38db9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Quantity\"],\"isOpposite\": false}},{\"id\": \"f74486ce-ff4f-4da0-a701-b60ba290b9ef\",\"properties\": {\"axisType\": \"X\"}}]}"
       display_mode: CHART_MODE
     viz_guid: 43c9f421-410f-4564-b624-2b3acc4ea8cd
   - id: Viz_3
@@ -129,7 +122,7 @@ liveboard:
           - Total Revenue
           - Total Quantity
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {},\"kpiDisplayProperties\": {\"showDateLabel\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true,\"showChange\": true,\"showChangeAs\": \"PERCENT\",\"changeInterpretation\": \"UPWARD_IS_GOOD\"}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {\"kpiColumnProperties\": {\"showAbbreviatedPreviousDate\": false,\"showSparkline\": true,\"showComparisonDate\": true}}},{\"columnId\": \"Total Revenue\",\"columnProperty\": {\"kpiColumnProperties\": {\"showAbbreviatedPreviousDate\": false,\"showSparkline\": true,\"showComparisonDate\": true}}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {\"kpiColumnProperties\": {\"showAbbreviatedPreviousDate\": false,\"showSparkline\": true,\"showComparisonDate\": true}}}],\"axisProperties\": [{\"id\": \"dc3314ee-89ea-4a23-846f-4d5eebe560ca\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"d2cb441e-a329-44e1-992e-a4b7f285e514\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": true}},{\"id\": \"f81a7c59-a158-4d9e-af59-2d7e203307db\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Revenue\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Quantity\",\"color\": \"#48D1E0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Total Revenue\",\"columnProperty\": {}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"dc3314ee-89ea-4a23-846f-4d5eebe560ca\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"d2cb441e-a329-44e1-992e-a4b7f285e514\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": true}},{\"id\": \"f81a7c59-a158-4d9e-af59-2d7e203307db\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Revenue\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Quantity\",\"color\": \"#48D1E0\"}]}"
       display_mode: TABLE_MODE
     viz_guid: 237504c6-cee9-4233-a839-d368f7884cee
   - id: Viz_4
@@ -179,9 +172,129 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Total Revenue\",\"columnProperty\": {}},{\"columnId\": \"Total Quantity\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"dc3314ee-89ea-4a23-846f-4d5eebe560ca\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"d2cb441e-a329-44e1-992e-a4b7f285e514\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": true}},{\"id\": \"f81a7c59-a158-4d9e-af59-2d7e203307db\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Revenue\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total Quantity\",\"color\": \"#48D1E0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 754977f5-177a-492b-b79a-b703e33db9ef
+  - id: Viz_5
+    answer:
+      name: Total Partial Quantity
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      formulas:
+      - id: formula_Holiday YTD
+        name: Holiday YTD
+        expr: "month ( [Commit Date] ) <= month ( [Date List Param] ) and day ( [Commit Date] ) <= day ( [Date List Param] )"
+        was_auto_generated: false
+      - id: formula_Partial Quantity
+        name: Partial Quantity
+        expr: "[Quantity] / [Integer Range Param]"
+        was_auto_generated: false
+      - id: formula_Partial Revenue
+        name: Partial Revenue
+        expr: "[Revenue] / [Integer Range Param]"
+        was_auto_generated: false
+      search_query: "[formula_Holiday YTD] = true [formula_Partial Quantity]"
+      answer_columns:
+      - name: Total Partial Quantity
+      table:
+        table_columns:
+        - column_id: Total Partial Quantity
+          show_headline: false
+        ordered_column_ids:
+        - Total Partial Quantity
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Partial Quantity
+        axis_configs:
+        - "y":
+          - Total Partial Quantity
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 2591afbc-4579-4d05-a9bd-883e4d2915ba
+  - id: Viz_6
+    answer:
+      name: Total Partial Quantity
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      formulas:
+      - id: formula_Holiday YTD
+        name: Holiday YTD
+        expr: "month ( [Commit Date] ) <= month ( [Date List Param] ) and day ( [Commit Date] ) <= day ( [Date List Param] )"
+        was_auto_generated: false
+      - id: formula_Partial Quantity
+        name: Partial Quantity
+        expr: "[Quantity] / [Integer Range Param]"
+        was_auto_generated: false
+      - id: formula_Partial Revenue
+        name: Partial Revenue
+        expr: "[Revenue] / [Integer Range Param]"
+        was_auto_generated: false
+      search_query: "[formula_Holiday YTD] = true [formula_Partial Quantity]"
+      answer_columns:
+      - name: Total Partial Quantity
+      table:
+        table_columns:
+        - column_id: Total Partial Quantity
+          show_headline: false
+        ordered_column_ids:
+        - Total Partial Quantity
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Partial Quantity
+        axis_configs:
+        - "y":
+          - Total Partial Quantity
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 380015c4-bcf5-4e3c-9974-963f3e44f7b7
+  - id: Viz_7
+    answer:
+      name: Total Partial Quantity
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      formulas:
+      - id: formula_Holiday YTD
+        name: Holiday YTD
+        expr: "month ( [Commit Date] ) <= month ( [Date List Param] ) and day ( [Commit Date] ) <= day ( [Date List Param] )"
+        was_auto_generated: false
+      - id: formula_Partial Quantity
+        name: Partial Quantity
+        expr: "[Quantity] / [Integer Range Param]"
+        was_auto_generated: false
+      - id: formula_Partial Revenue
+        name: Partial Revenue
+        expr: "[Revenue] / [Integer Range Param]"
+        was_auto_generated: false
+      search_query: "[formula_Holiday YTD] = true [formula_Partial Quantity]"
+      answer_columns:
+      - name: Total Partial Quantity
+      table:
+        table_columns:
+        - column_id: Total Partial Quantity
+          show_headline: false
+        ordered_column_ids:
+        - Total Partial Quantity
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Partial Quantity
+        axis_configs:
+        - "y":
+          - Total Partial Quantity
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: fa92a7f0-0129-47d0-afd1-a8229020379b
   layout:
     tabs:
-    - name: T1
+    - name: test2
       description: ""
       tiles:
       - visualization_id: Viz_1
@@ -204,30 +317,35 @@ liveboard:
         "y": 0
         height: 8
         width: 6
-      id: c9206b06-4023-4b29-913e-c0438c334003
+      - visualization_id: Viz_5
+        x: 6
+        "y": 8
+        height: 2
+        width: 3
+      - visualization_id: Viz_6
+        x: 9
+        "y": 8
+        height: 2
+        width: 3
+      id: 57dd0fbe-e222-4fc3-b6b9-60df9bfe845a
+    - name: test3
+      description: ""
+      tiles:
+      - visualization_id: Viz_7
+      id: 734b2277-f22c-4f06-8105-8a6b7250453d
   parameter_overrides:
   - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
     value:
       name: Parameters WS::Date List Param
       override_value: 07/04/2022
-  - key: db95c261-9e31-41fc-b9d9-4059062fc26f
-    value:
-      name: Parameters WS::Integer Param
-  - key: 94af5fac-3afb-4781-aca1-a5ca97094661
-    value:
-      name: Parameters WS::Date Param
   - key: 6afe392d-d188-4379-aef3-1a8632e147c8
     value:
       name: Parameters WS::Integer Range Param
-      override_value: "1"
+      override_value: "5"
   ordered_chips:
   - name: Parameters WS::Date List Param
     type: PARAMETER
   - name: Parameters WS::Integer Range Param
-    type: PARAMETER
-  - name: Parameters WS::Integer Param
-    type: PARAMETER
-  - name: Parameters WS::Date Param
     type: PARAMETER
   style:
     style_properties:
@@ -245,3 +363,10 @@ liveboard:
       value: "false"
     - name: kpi_hero_font_size
       value: M
+    overrides:
+    - object_id: Viz_2
+      style_properties:
+      - name: is_highlighted
+        value: "true"
+      - name: is_linked
+        value: "true"
