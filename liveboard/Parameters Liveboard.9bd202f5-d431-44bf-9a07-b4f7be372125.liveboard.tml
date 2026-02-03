@@ -292,6 +292,17 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: fa92a7f0-0129-47d0-afd1-a8229020379b
+  filters:
+  - column:
+    - Commit Date
+    is_mandatory: false
+    date_filter:
+      type: LAST_N_PERIOD
+      number: 1
+      oper: =
+      date_period: MONTH
+      include_current_period: true
+    display_name: ""
   layout:
     tabs:
     - name: test2
@@ -332,6 +343,10 @@ liveboard:
       description: ""
       tiles:
       - visualization_id: Viz_7
+        x: 0
+        "y": 0
+        height: 2
+        width: 3
       id: 734b2277-f22c-4f06-8105-8a6b7250453d
   parameter_overrides:
   - key: 75bb2345-1997-4b00-b364-5fea0ec0c406
@@ -347,6 +362,8 @@ liveboard:
     type: PARAMETER
   - name: Parameters WS::Integer Range Param
     type: PARAMETER
+  - name: Commit Date
+    type: FILTER
   style:
     style_properties:
     - name: lb_border_type
