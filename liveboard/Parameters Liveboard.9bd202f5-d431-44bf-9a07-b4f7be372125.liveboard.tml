@@ -282,6 +282,7 @@ liveboard:
         ordered_column_ids:
         - Total Partial Quantity
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Partial Quantity\",\"columnProperty\": {}}]}"
       chart:
         type: KPI
         chart_columns:
@@ -290,7 +291,8 @@ liveboard:
         - "y":
           - Total Partial Quantity
         client_state: ""
-      display_mode: CHART_MODE
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Partial Quantity\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"67f0b22d-3542-4126-9fed-a8067235c303\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Partial Quantity\"],\"isOpposite\": false}},{\"id\": \"5674e781-e1c1-4f52-8609-6ce6cb14a2a9\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: TABLE_MODE
     viz_guid: fa92a7f0-0129-47d0-afd1-a8229020379b
   filters:
   - column:
