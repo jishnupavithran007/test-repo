@@ -365,6 +365,25 @@ liveboard:
   - name: Commit Date
     type: FILTER
   views:
+  - view_guid: ae4f71bf-d8bc-4219-a15b-54fdec473efe
+    name: TEST 5
+    view_filters:
+    - column:
+      - Commit Date
+      date_filter:
+        type: LAST_N_PERIOD
+        number: 4
+        oper: =
+        date_period: MONTH
+        include_current_period: true
+    is_public: false
+    view_parameters:
+    - name: ""
+      id: 75bb2345-1997-4b00-b364-5fea0ec0c406
+      override_value: 07/04/2022
+    - name: ""
+      id: 6afe392d-d188-4379-aef3-1a8632e147c8
+      override_value: "5"
   - view_guid: 48b9b94b-01b3-4e87-bfa0-e5ed22dc5fad
     name: TEST 1
     view_filters:
