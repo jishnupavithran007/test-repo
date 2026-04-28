@@ -1,0 +1,96 @@
+guid: 295ad391-c3b5-4d16-98f1-8d05636edb8c
+liveboard:
+  name: Test LB
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Discount by Color
+      tables:
+      - id: Parameters Model
+        name: Parameters Model
+        fqn: 3c020c5e-1c44-4ceb-a2d6-23ba1c53a3f4
+      search_query: "[Discount] [Color]"
+      answer_columns:
+      - name: Color
+      - name: Total Discount
+      table:
+        table_columns:
+        - column_id: Color
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Discount
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Color
+        - Total Discount
+        client_state: ""
+      chart:
+        type: ADVANCED_COLUMN
+        chart_columns:
+        - column_id: Color
+        - column_id: Total Discount
+        client_state: ""
+        custom_chart_config:
+        - key: basic
+          dimensions:
+          - key: x-axis
+            axes:
+            - type: FLAT
+              column: Color
+            mode: AXIS_DRIVEN
+          - key: y-axis
+            axes:
+            - type: FLAT
+              column: Total Discount
+            mode: AXIS_DRIVEN
+          - key: slice-with-color
+            mode: AXIS_DRIVEN
+          - key: trellis-by
+            mode: AXIS_DRIVEN
+      display_mode: CHART_MODE
+    viz_guid: ab48131d-cf55-4312-a327-0958f4f42601
+  filters:
+  - column:
+    - Color
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
+  ordered_chips:
+  - name: Color
+    type: FILTER
+  views:
+  - view_guid: f67ca593-5fa0-4a35-836f-3853cd7d484a
+    name: V1
+    view_filters:
+    - column:
+      - Color
+      oper: in
+      values:
+      - aquamarine
+      - azure
+    is_public: false
+    creator:
+      username: guest1
+      user_email: guest1@thoughtspot.com
+  style:
+    style_properties:
+    - name: lb_border_type
+      value: CURVED
+    - name: lb_brand_color
+      value: LBC_A
+    - name: hide_group_title
+      value: "false"
+    - name: hide_group_description
+      value: "true"
+    - name: hide_group_tile_description
+      value: "false"
+    - name: hide_tile_description
+      value: "false"
+    - name: kpi_hero_font_size
+      value: M
