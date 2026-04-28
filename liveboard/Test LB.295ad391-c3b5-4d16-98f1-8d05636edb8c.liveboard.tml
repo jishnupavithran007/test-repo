@@ -78,6 +78,19 @@ liveboard:
     creator:
       username: guest1
       user_email: guest1@thoughtspot.com
+  - view_guid: 21474bdf-94a8-474b-a511-30e92e44200e
+    name: V2
+    view_filters:
+    - column:
+      - Color
+      oper: in
+      values:
+      - beige
+      - bisque
+    is_public: false
+    creator:
+      username: tsadmin
+      user_email: ""
   style:
     style_properties:
     - name: lb_border_type
