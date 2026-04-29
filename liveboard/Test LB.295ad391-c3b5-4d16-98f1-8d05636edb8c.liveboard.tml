@@ -67,20 +67,6 @@ liveboard:
   - name: Color
     type: FILTER
   views:
-  - view_guid: fbedb4e8-a248-47d2-aebe-1b66e1ef7315
-    name: V3
-    view_filters:
-    - column:
-      - Color
-      oper: in
-      values:
-      - bisque
-      - beige
-      - azure
-    is_public: false
-    creator:
-      username: tsadmin
-      user_email: ""
   - view_guid: f67ca593-5fa0-4a35-836f-3853cd7d484a
     name: V1
     view_filters:
@@ -94,6 +80,20 @@ liveboard:
     creator:
       username: guest1
       user_email: guest1@thoughtspot.com
+  - view_guid: 255c15e3-afb5-4e08-b358-a8fc0ebe5948
+    name: V3
+    view_filters:
+    - column:
+      - Color
+      oper: in
+      values:
+      - beige
+      - bisque
+      - aquamarine
+    is_public: false
+    creator:
+      username: tsadmin
+      user_email: ""
   - view_guid: 21474bdf-94a8-474b-a511-30e92e44200e
     name: V2
     view_filters:
